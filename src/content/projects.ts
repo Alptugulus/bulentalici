@@ -1,5 +1,10 @@
 import type { Project } from "@/types/content";
 
+export const projectsHeading = "İstanbul otelciliği için sekiz somut proje.";
+
+export const projectsLead =
+  "Otellerimizin maliyetlerini azaltmak, gelirlerini artırmak ve İstanbul turizmini birlikte güçlendirmek için çalışacağız.";
+
 export const projectsIntro =
   "Geldiğimizde yapacaklarımız sekiz başlıktır. Her başlıkta hedef ve adım yazıyor: maliyet, rezervasyon, vergi, misafir ve açık temsil.";
 

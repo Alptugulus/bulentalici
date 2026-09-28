@@ -40,6 +40,8 @@ Aynı gün öğleden sonra dil: net cümle, “otellerimiz” ve “misafirimiz�
 
 28 Eylül 2026 gece tasarım bütünlüğü: lacivert, beyaz ve mavi duruyor. Sayfa başlığı, kart ve bağlantı ölçüsü ortak. Proje sahneleri temsili ve metinsizdir; başlık görselin üstünde HTML’dir. Sözümüz aynı akşam siyah mektup düzeninden çıkarıldı; metin durur, zemin site renkleridir, imza ana sayfadaki dosyadır.
 
+28 Eylül 2026 akşamı haberler: paylaşılan paketteki altı kayıt. Kapaklar yerel dosyadır. Görünür tarih yıl içermez. Yazılı gövdesi olmayan röportajlar sayfa görseli olarak durur. Kaynak adresi eski site haber sayfasıdır.
+
 Aynı gün kampanya cümlesi: her projede hedef ve adım yazılır. Enerji muhatabı Enerji ve Tabii Kaynaklar Bakanlığı, Kültür ve Turizm Bakanlığı ve sektörün sivil toplum kuruluşlarıdır; ortak dilde toplantı yapılacaktır. Vergi muhatabı Hazine ve Maliye Bakanlığı’dır; dosya Kültür ve Turizm Bakanlığı ile hazırlanır. SGK talebi Sosyal Güvenlik Kurumu ve Çalışma ve Sosyal Güvenlik Bakanlığı’nadır. Etkinlik iş birliği Kültür ve Turizm Bakanlığı iledir. Platform, yapay zekâ, oda geliri ve şeffaflık Oteller Komitesi ile otelcinin işidir. Belirli STK adı, enerji yüzdesi, SGK tutarı, etkinlik adı ve harcama tutarı uydurulmaz.
 
 ## Açık kararlar

@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
 import { EmptyState } from "@/components/ui/empty-state";
 import { ProjectCard } from "@/components/ui/project-card";
-import { projectsIntro } from "@/content/projects";
+import { projectsHeading, projectsIntro, projectsLead } from "@/content/projects";
 import { getVisibleProjects } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Projelerimiz",
-  description: projectsIntro,
+  description: projectsLead,
 };
 
 export default function ProjectsPage() {
@@ -18,6 +18,8 @@ export default function ProjectsPage() {
       <div className="py-16 md:py-20">
         <div className="project-collection-heading"><div className="max-w-3xl">
           <h1 className="text-navy">Projelerimiz</h1>
+          <p className="projects-kicker mt-4">{projectsHeading}</p>
+          <p className="mt-4">{projectsLead}</p>
           <p className="mt-4">{projectsIntro}</p>
         </div><span className="project-collection-count">{items.length} PROJE</span></div>
         {items.length > 0 ? (

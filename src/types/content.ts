@@ -35,6 +35,13 @@ export type Biography = {
   closing: string;
 };
 
+export type NewsImage = {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+};
+
 export type NewsItem = {
   id: string;
   slug: string;
@@ -43,9 +50,10 @@ export type NewsItem = {
   status: ContentStatus;
   order: number;
   listedOn: string;
-  body: readonly string[];
   sourceName: string;
-  sourceUrl?: string;
+  sourceUrl: string;
+  contentType: "image_only" | "text_and_image";
+  images: readonly NewsImage[];
 };
 
 export type Brand = {

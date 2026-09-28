@@ -1,7 +1,7 @@
 import { Container } from "@/components/layout/container";
 import { EmptyState } from "@/components/ui/empty-state";
 import { ProjectCard } from "@/components/ui/project-card";
-import { projectsIntro } from "@/content/projects";
+import { projectsHeading, projectsIntro, projectsLead } from "@/content/projects";
 import { getVisibleProjects } from "@/lib/content";
 
 export function HomeProjects() {
@@ -14,6 +14,8 @@ export function HomeProjects() {
           <h2 id="projeler-baslik" className="text-navy">
             Projelerimiz
           </h2>
+          <p className="projects-kicker mt-4">{projectsHeading}</p>
+          <p className="mt-4 leading-relaxed">{projectsLead}</p>
           <p className="mt-4 leading-relaxed">{projectsIntro}</p>
         </div><span className="project-collection-count">{items.length} PROJE</span></div>
         {items.length > 0 ? (

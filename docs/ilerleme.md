@@ -66,6 +66,8 @@ Aynı gün muhataplar adlandırıldı. Enerji: Enerji ve Tabii Kaynaklar Bakanl�
 
 Aynı gün `/sozumuz` eklendi. Kullanıcının verdiği mektup duruyor. Siyah zemin ve beyaz imza kalktı; sayfa lacivert-beyaz düzendedir ve ana sayfadaki imzayı kullanır. Açılışta portre geniş kadrajdadır; alt bantta yalnızca başlık ve yan yana duran “İstanbul Ticaret Odası” ile adaylık unvanı vardır. “Sevgili dostlar;” mektubun başındadır. Yazı yüze binmez. Adaylık unvanı değişmedi. Mektuptaki “Turizm Komitesi” satırı arayüze yazılmadı. Binde 7,5 ve yüzde 25 kullanıcının sözüdür. Güneş paneli için bakanlık adı verilmediği için uydurulmadı.
 
+Aynı gün proje girişi: “İstanbul otelciliği için sekiz somut proje.” Haberler, paylaşılan paketteki altı kayıt, sekiz yerel görsel ve kaynak adresiyle yenilendi. Yıl eklenmedi. Tam metin uydurulmadı.
+
 Aynı gün arayüzdeki envanter notları kalktı: yıl yok, gövde görünmedi, kesik metin, marka kaynak notu, “Temsili proje görseli” alt yazısı ve teyitsiz iletişim açıklaması. Haber görseli ve haber adresi eklenmedi.
 
 Aynı gün tasarım bütünlüğü: başlık ölçüsü, kart köşesi, 44 px dokunma alanı ve metin bağlantısı sayfalarda ortaklaştı. Sekiz proje sahnesi metinsiz üretildi; başlıklar HTML’de duruyor. Eski rezervasyon görselindeki ışık halkası kalktı. Hesap formülleri ve Sözümüz metni duruyor. Canlı yayın yapılmadı.

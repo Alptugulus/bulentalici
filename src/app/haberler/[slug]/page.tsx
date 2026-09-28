@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/layout/container";
+import { NewsFigures } from "@/components/ui/news-figures";
 import { getVisibleNews, getVisibleNewsItem } from "@/lib/content";
 
 type NewsPageProps = {
@@ -47,23 +48,24 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
           {item.sourceName ? ` · ${item.sourceName}` : ""}
         </p>
         <h1 className="page-title mt-3">{item.title}</h1>
-        {item.summary ? <p className="mt-4 leading-relaxed">{item.summary}</p> : null}
-        {item.body.length > 0 ? (
-          <div className="mt-6 space-y-4">
-            {item.body.map((paragraph) => (
-              <p key={paragraph} className="leading-relaxed">
-                {paragraph}
-              </p>
-            ))}
-          </div>
+        {item.contentType === "text_and_image" && item.summary ? (
+          <section className="mt-8" aria-labelledby="haber-ozeti">
+            <h2 id="haber-ozeti" className="text-xl font-semibold text-navy">
+              Haber özeti
+            </h2>
+            <p className="mt-4 leading-relaxed">{item.summary}</p>
+          </section>
         ) : null}
-        {item.sourceUrl ? (
-          <p className="mt-8 text-sm leading-relaxed">
-            <a href={item.sourceUrl} className="text-navy underline underline-offset-4">
-              Haberi oku
-            </a>
-          </p>
-        ) : null}
+        <NewsFigures images={item.images} />
+        <p className="mt-8">
+          <a
+            href={item.sourceUrl}
+            className="text-action underline-offset-4 hover:underline"
+            rel="noopener noreferrer"
+          >
+            Kaynak haberi aç
+          </a>
+        </p>
       </article>
     </Container>
   );

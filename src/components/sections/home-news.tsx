@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Container } from "@/components/layout/container";
 import { EmptyState } from "@/components/ui/empty-state";
+import { NewsCard } from "@/components/ui/news-card";
 import { getVisibleNews } from "@/lib/content";
 
 export function HomeNews() {
@@ -18,21 +19,7 @@ export function HomeNews() {
           <ul className="mt-8 grid gap-4 lg:grid-cols-3">
             {items.map((item) => (
               <li key={item.id} className="min-w-0">
-                <article className="content-card">
-                  <p className="text-sm leading-relaxed">
-                    {item.listedOn}
-                    {item.sourceName ? ` · ${item.sourceName}` : ""}
-                  </p>
-                  <h3 className="mt-2 text-xl font-semibold leading-snug text-navy">
-                    <Link
-                      href={`/haberler/${item.slug}`}
-                      className="underline-offset-4 hover:underline"
-                    >
-                      {item.title}
-                    </Link>
-                  </h3>
-                  {item.summary ? <p className="mt-2 leading-relaxed">{item.summary}</p> : null}
-                </article>
+                <NewsCard item={item} titleAs="h3" />
               </li>
             ))}
           </ul>

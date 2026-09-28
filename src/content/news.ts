@@ -1,120 +1,135 @@
-import type { NewsItem } from "@/types/content";
+import type { NewsImage, NewsItem } from "@/types/content";
+
+function image(file: string, width: number, height: number, alt: string): NewsImage {
+  return { src: `/haberler/${file}.avif`, width, height, alt };
+}
 
 export const news: readonly NewsItem[] = [
   {
-    id: "paravizyon",
+    id: "haber-01",
     slug: "paravizyon-roportaji",
     title: "Bülent Alıcı Paravizyon Röportajı",
     summary: "",
     status: "published",
     order: 1,
     listedOn: "3 Ağu",
-    body: [],
     sourceName: "Paravizyon",
+    sourceUrl:
+      "https://www.bulentalici.com.tr/post/b%C3%BClent-al%C4%B1c%C4%B1-paravizyon-r%C3%B6portaj%C4%B1",
+    contentType: "image_only",
+    images: [
+      image(
+        "paravizyon-roportaji-kapak",
+        1024,
+        1575,
+        "Paravizyon röportajının birinci sayfası.",
+      ),
+      image(
+        "paravizyon-roportaji-sayfa-2",
+        1024,
+        1576,
+        "Paravizyon röportajının ikinci sayfası.",
+      ),
+    ],
   },
   {
-    id: "tuketici",
+    id: "haber-02",
     slug: "tuketici-dergisi-roportaji",
     title: "Bülent Alıcı Tüketici Dergisi Röportajı",
     summary: "",
     status: "published",
     order: 2,
     listedOn: "3 Ağu",
-    body: [],
     sourceName: "Tüketici Dergisi",
+    sourceUrl:
+      "https://www.bulentalici.com.tr/post/b%C3%BClent-al%C4%B1c%C4%B1t%C3%BCketici-dergisi-r%C3%B6portaj%C4%B1",
+    contentType: "image_only",
+    images: [
+      image(
+        "tuketici-dergisi-roportaji-kapak",
+        1168,
+        828,
+        "Tüketici Dergisi röportajının birinci sayfası.",
+      ),
+      image(
+        "tuketici-dergisi-roportaji-sayfa-2",
+        1480,
+        1046,
+        "Tüketici Dergisi röportajının ikinci sayfası.",
+      ),
+    ],
   },
   {
-    id: "turizm-ajansi",
+    id: "haber-03",
     slug: "turizm-ajansi",
-    title: "Bülent Alıcı Turizm Ajansına Konuştu",
+    title: "Bülent Alıcı Turizm Ajansina Konuştu",
     summary:
-      "Basit belgeli otellerin de SGK prim desteği kapsamında değerlendirilmesini istedi.",
+      "Bülent Alıcı, turizm sektörüne yönelik sigorta primi desteğinin basit konaklama belgeli tesisleri de kapsamasını talep ediyor. Haberde İstanbul’daki yaklaşık 1.900 tesisin mevcut düzenlemeden yararlanamadığı belirtiliyor. Alıcı, bu işletmelerin de bakanlığa bağlı çalıştığını, SGK yükümlülüklerini yerine getirdiğini ve istihdam sağladığını vurgulayarak destek kapsamının genişletilmesini savunuyor.",
     status: "published",
     order: 3,
     listedOn: "3 Ağu",
-    body: [
-      "Bülent Alıcı, sigorta prim desteği kapsamına alınmayan basit belgeli otellerin de bu destek içinde değerlendirilmesini istedi.",
-      "Açıklamada, 1.900 basit belgeli otelin Kültür ve Turizm Bakanlığına bağlı çalıştığı, SGK yükümlülüklerini yerine getirdiği ve istihdam sağladığı belirtildi.",
-    ],
     sourceName: "Turizm Ajansı",
+    sourceUrl:
+      "https://www.bulentalici.com.tr/post/b%C3%BClent-al%C4%B1c%C4%B1-turizm-ajansina-konu%C5%9Ftu",
+    contentType: "text_and_image",
+    images: [
+      image("turizm-ajansi-kapak", 1168, 876, "Turizm Ajansı haberinin kapak görseli."),
+    ],
   },
   {
-    id: "degisim",
-    slug: "ito-oteller-komitesinde-degisim",
-    title: "İTO Oteller Komitesi'nde değişim rüzgarı",
-    summary: "İstanbul'un turizmden aldığı pay ve seçim sürecine dair röportaj özeti.",
+    id: "haber-04",
+    slug: "hotel-gazetesi",
+    title: "Bülent Alıcı Hotel Gazetesine Konuştu",
+    summary:
+      "Haberde Alıcı’nın SGK prim desteğinde tesislerin belge türüne göre ayrılmaması yönündeki çağrısı aktarılıyor. İstanbul’da yaklaşık 1.900 basit konaklama belgeli işletmenin vergi, kayıtlı istihdam ve turizm katkısı bakımından değerlendirilmesi gerektiği belirtiliyor. Desteklerin yasal olarak faaliyet gösteren tüm konaklama tesislerine yayılması isteniyor.",
     status: "published",
     order: 4,
     listedOn: "3 Ağu",
-    body: [
-      "Yazıda İstanbul'un büyük bir turizm destinasyonu olmasına rağmen turizmden hak ettiği payı tam alamadığı belirtiliyor.",
-      "Aynı yazı, İTO 16. Oteller Komitesi seçimlerinin ekim ayında yapılacağını söylüyor.",
-      "Bülent Alıcı'nın aktarılan sözleri: “İstanbul kazanacaksa değişim şart.” ve “İstanbul'un turizmde yeni vizyonunu ortaya koyacağız.”",
+    sourceName: "Hotel Gazetesi",
+    sourceUrl:
+      "https://www.bulentalici.com.tr/post/b%C3%BClent-al%C4%B1c%C4%B1-hotel-gazetesine-konu%C5%9Ftu-1",
+    contentType: "text_and_image",
+    images: [
+      image("hotel-gazetesi-kapak", 1140, 660, "Hotel Gazetesi haberinin kapak görseli."),
     ],
-    sourceName: "",
   },
   {
-    id: "hotel-gazetesi-agustos",
-    slug: "hotel-gazetesi-prim-destegi",
-    title: "Bülent Alıcı Hotel Gazetesine Konuştu",
-    summary: "SGK prim desteğinin belge ayrımı yapılmadan uygulanmasını istedi.",
+    id: "haber-05",
+    slug: "turizm-aktuel",
+    title: "Bülent Alıcı Turizm Aktüel Röpörtajı",
+    summary:
+      "Alıcı, İstanbul turizminin başarısının doluluk kadar ziyaretçilerin şehirde bıraktığı ekonomik değerle ölçülmesini savunuyor. Önerileri arasında yerli rezervasyon platformu, doğrudan satışların artırılması ve aracı maliyetlerinin azaltılması bulunuyor. Fuar, kongre, ulaşım ve konaklamanın birlikte planlanması; uluslararası tanıtım, etkinlikler ve şehir deneyimleriyle talebin yıl geneline yayılması öneriliyor. İlçelerin farklı turizm potansiyellerine göre gelişmesi ve dijital gelir yönetimi de ele alınıyor. Metin, 2026 İTO seçimleri bağlamında sektörün ortak hareket etmesi ve kamu ile iletişimin güçlendirilmesi çağrısını içeriyor. Konaklama vergisinin azaltılması veya kaldırılması bir öneri olarak sunuluyor.",
     status: "published",
     order: 5,
-    listedOn: "3 Ağu",
-    body: [
-      "Bülent Alıcı, turizm sektörüne sağlanan SGK prim desteğinin yalnızca turizm işletmesi belgeli tesislerle sınırlı kalmaması gerektiğini söyledi.",
-      "Hotel Gazetesi metninde İstanbul'da yaklaşık 1.900 basit konaklama belgeli tesis olduğu, bu işletmelerin vergi ödediği ve kayıtlı istihdam sağladığı yazıyor.",
+    listedOn: "22 Nis",
+    sourceName: "Turizm Aktüel",
+    sourceUrl:
+      "https://www.bulentalici.com.tr/post/b%C3%BClent-al%C4%B1c%C4%B1-turizm-akt%C3%BCel-r%C3%B6p%C3%B6rtaj%C4%B1",
+    contentType: "text_and_image",
+    images: [
+      image("turizm-aktuel-kapak", 851, 551, "Turizm Aktüel röportajının kapak görseli."),
     ],
-    sourceName: "Hotel Gazetesi",
   },
   {
-    id: "turizm-aktuel",
-    slug: "turizm-aktuel-roportaji",
-    title: "Bülent Alıcı Turizm Aktüel Röportajı",
-    summary: "Doluluk oranından çok, şehre değer bırakan ziyaretçi hedefleniyor.",
+    id: "haber-06",
+    slug: "ito-oteller-komitesi",
+    title: "İTO Oteller Komitesi'nde değişim rüzgarı!",
+    summary:
+      "Turizm Güncel’den Okan Beltek’e verilen açıklamaları aktaran haberde Alıcı, İstanbul’da konaklama süresini ve ziyaretçi başına harcamayı artıracak bir turizm modeli öneriyor. Kongreler, fuarlar, gastronomi ve kültür etkinlikleri bu yaklaşımın parçaları olarak ele alınıyor. Yerli rezervasyon platformuyla komisyon yükünün azaltılması; yapay zekâ destekli fiyatlama, pazarlama ve operasyon uygulamalarının yaygınlaştırılması hedefleniyor. İTO öncülüğünde eğitim ve danışmanlık, teknoloji kuruluşları ve üniversitelerle iş birliği öneriliyor. Alıcı ayrıca önceki seçim deneyimini değerlendirerek sektör temsilcilerini 2026 seçimlerine katılmaya çağırıyor.",
     status: "published",
     order: 6,
-    listedOn: "22 Nis",
-    body: [
-      "Röportajda Bülent Alıcı, Türk turizminin yalnızca doluluk oranlarını değil, üretilen değeri de konuşması gerektiğini söylüyor.",
-      "Hedefi, transit yolcu sayısını artırmak değil, İstanbul'a girip şehre ekonomik değer bırakan ziyaretçi sayısını artırmak olarak anlatıyor.",
-      "Turizmin otel, esnaf, restoran, ulaşım ve ticareti birlikte etkilediği belirtiliyor.",
+    listedOn: "3 Ağu",
+    sourceName: "Turizm Güncel",
+    sourceUrl:
+      "https://www.bulentalici.com.tr/post/i-to-oteller-komitesi-nde-de%C4%9Fi%C5%9Fim-r%C3%BCzgar%C4%B1",
+    contentType: "text_and_image",
+    images: [
+      image(
+        "ito-oteller-komitesi-kapak",
+        1023,
+        640,
+        "İTO Oteller Komitesi haberinin kapak görseli.",
+      ),
     ],
-    sourceName: "Turizm Aktüel",
-  },
-  {
-    id: "itb",
-    slug: "itb-berlin-2026",
-    title: "Bülent Alıcı Turizm Aktüel'e Konuştu",
-    summary: "2026 ITB Berlin kapsamında Turizm Aktüel röportajı paylaşıldı.",
-    status: "published",
-    order: 7,
-    listedOn: "22 Nis",
-    body: [
-      "2026 ITB Berlin Turizm Fuarı kapsamında Turizm Aktüel Dergisi'nde yayımlanan röportajın konusu, İstanbul'un turizm vizyonu, fuar turizmi ve sektörün ortak hareket etmesidir.",
-    ],
-    sourceName: "Turizm Aktüel",
-  },
-  {
-    id: "hotel-gazetesi-nisan",
-    slug: "hotel-gazetesi-nisan",
-    title: "Bülent Alıcı Hotel Gazetesine Konuştu",
-    summary: "",
-    status: "published",
-    order: 8,
-    listedOn: "22 Nis",
-    body: [],
-    sourceName: "Hotel Gazetesi",
-  },
-  {
-    id: "klass",
-    slug: "klass-magazine",
-    title: "Bülent Alıcı Klass Magazine'e Konuştu",
-    summary: "",
-    status: "published",
-    order: 9,
-    listedOn: "22 Nis",
-    body: [],
-    sourceName: "Klass Magazine",
   },
 ];

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Container } from "@/components/layout/container";
 import { EmptyState } from "@/components/ui/empty-state";
+import { NewsCard } from "@/components/ui/news-card";
 import { getVisibleNews } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -20,21 +20,7 @@ export default function NewsPage() {
           <ul className="mt-8 grid gap-4">
             {items.map((item) => (
               <li key={item.id}>
-                <article className="content-card">
-                  <p className="text-sm leading-relaxed">
-                    {item.listedOn}
-                    {item.sourceName ? ` · ${item.sourceName}` : ""}
-                  </p>
-                  <h2 className="mt-2 text-xl font-semibold leading-snug text-navy">
-                    <Link
-                      href={`/haberler/${item.slug}`}
-                      className="underline-offset-4 hover:underline"
-                    >
-                      {item.title}
-                    </Link>
-                  </h2>
-                  {item.summary ? <p className="mt-2 leading-relaxed">{item.summary}</p> : null}
-                </article>
+                <NewsCard item={item} titleAs="h2" />
               </li>
             ))}
           </ul>
