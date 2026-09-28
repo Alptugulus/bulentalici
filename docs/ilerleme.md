@@ -64,6 +64,8 @@ Aynı gün kampanya dili: sekiz başlığın amacı ve adımı net cümleyle yaz
 
 Aynı gün muhataplar adlandırıldı. Enerji: Enerji ve Tabii Kaynaklar Bakanlığı, Kültür ve Turizm Bakanlığı ve sivil toplum kuruluşlarıyla toplantı. Vergi: Hazine ve Maliye Bakanlığı; dosya Kültür ve Turizm Bakanlığı ile. SGK: Sosyal Güvenlik Kurumu ve Çalışma ve Sosyal Güvenlik Bakanlığı. Etkinlik: Kültür ve Turizm Bakanlığı. Platform, yapay zekâ, oda geliri ve şeffaflık Oteller Komitesi ile otelcinin işidir.
 
+Aynı gün `/sozumuz` eklendi. Kullanıcının verdiği mektup, siyah zeminde, masa portresi ve beyaz imza ile duruyor. Adaylık unvanı değişmedi. Mektuptaki “Turizm Komitesi” satırı arayüze yazılmadı. Binde 7,5 ve yüzde 25 kullanıcının sözüdür. Güneş paneli için bakanlık adı verilmediği için uydurulmadı.
+
 ## Kontroller
 
 Son kodla:

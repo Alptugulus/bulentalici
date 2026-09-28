@@ -12,7 +12,7 @@
 | İçerik | Dosya tabanlı başlangıç. `draft` / `published`. Üretimde taslak sızmaz |
 | Tasarım başlangıcı | Lacivert `#10253F`, beyaz `#FFFFFF`, yüzey `#F3F6FA`, vurgu `#2563EB`, metin `#172B4D`. Renkler CSS değişkenlerinde. Yazı: Inter uygunsa, değilse sistem sans-serif. Gövde en az 16 px |
 | Karşılama | İlk başlık isim ve doğrulanmış unvandır. Eski slogan onaysızdır. “Değişim şart.” ve “Mavi listede buluşalım.” kullanıcı 28 Eylül 2026’da tasarım vurgusu olarak verdi; unvanın yerini almaz. Giriş `4.JPG` üzerindedir; imza ve altındaki şirket görevi de görselin üzerindedir. Bu görev adaylık unvanı değildir |
-| Menü | Ana Sayfa, Hakkımda, Projelerimiz, Haberler, Galeri, İletişim. Markalarımız Hakkımda ve alt bilgiden |
+| Menü | Ana Sayfa, Hakkımda, Sözümüz, Projelerimiz, Haberler, Galeri, İletişim. Markalarımız Hakkımda ve alt bilgiden |
 | Görseller | Fotoğraf yokken işaretli yerel alan. Yapay portre yok |
 | Form ve bülten | Hizmet bağlanmadan yok. Sahte başarı yok |
 | İzleme | Analitik, reklam veya çerez katmanı ihtiyaç doğrulanmadan eklenmez |
@@ -35,6 +35,8 @@ Aynı gün tanıtım metni, Bülent Alıcı ile paylaşılan açıklamadır. Kap
 Proje yüzeyi, 28 Eylül 2026 akşamı: sekiz başlık. Sayfa sırası amaç cümlesi, konuya uygun anlatım ve gerekiyorsa tek kapanış cümlesidir. Enerji birinci sırada ve eski adresindedir. Eski beş proje adresi 404’tür; yeni başlıklara eşlenmedi.
 
 Aynı gün öğleden sonra dil: net cümle, “otellerimiz” ve “misafirimiz”; samimi, kurumsal çizgide. Vergi hedefi kullanıcının verdiği oranlardır: yüzde 10’dan yüzde 5’e. Yapay zekâ sayfasında ayrıntılı otel ve güzergâh örneği yoktur; başlıklar rezervasyon, ulaşım ve en az iki dilde şehir turudur.
+
+28 Eylül 2026 akşamı söz ekranı: `/sozumuz`. Metin ve siyah mektup düzeni kullanıcıdan geldi. İmzadaki şirket görevi adaylık unvanı değildir. Mektup kapanışı “Eser Hoteller ve Eser Yapı Yönetim Kurulu Başkanı” satırını kullanıcının yazdığı biçimde taşır. “16. Turizm Komitesi” yeni arayüze yazılmaz; unvan “16. Oteller Komitesi Meclis Üyesi Adayı”dır. Komite bütçesi cümlesi Oteller Komitesi olarak yazıldı. Ciro vergisi binde 7,5’ten en az binde 3,5’e ve şehir vergisinin kabul edilmemesi bu mektuba aittir. Proje sayfasındaki yüzde 10’dan yüzde 5 hedefi durur; iki oran birbiriyle değiştirilmedi. Güneş panelinde arazi tahsisi “bakanlık” olarak kaldı; bakanlık adı verilmediği için eklenmedi. Burs oranı yüzde 25, kongre vadisi ve nöbetçi noter örneği kullanıcının cümlesidir.
 
 Aynı gün kampanya cümlesi: her projede hedef ve adım yazılır. Enerji muhatabı Enerji ve Tabii Kaynaklar Bakanlığı, Kültür ve Turizm Bakanlığı ve sektörün sivil toplum kuruluşlarıdır; ortak dilde toplantı yapılacaktır. Vergi muhatabı Hazine ve Maliye Bakanlığı’dır; dosya Kültür ve Turizm Bakanlığı ile hazırlanır. SGK talebi Sosyal Güvenlik Kurumu ve Çalışma ve Sosyal Güvenlik Bakanlığı’nadır. Etkinlik iş birliği Kültür ve Turizm Bakanlığı iledir. Platform, yapay zekâ, oda geliri ve şeffaflık Oteller Komitesi ile otelcinin işidir. Belirli STK adı, enerji yüzdesi, SGK tutarı, etkinlik adı ve harcama tutarı uydurulmaz.
 

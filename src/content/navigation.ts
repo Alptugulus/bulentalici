@@ -4,6 +4,7 @@
 export const mainNav = [
   { href: "/", label: "Ana Sayfa" },
   { href: "/hakkimda", label: "Hakkımda" },
+  { href: "/sozumuz", label: "Sözümüz" },
   { href: "/projelerimiz", label: "Projelerimiz" },
   { href: "/haberler", label: "Haberler" },
   { href: "/galeri", label: "Galeri" },
