@@ -1,0 +1,16 @@
+---
+description: Bülent Alıcı sitesi — unvan, Next.js, içerik doğruluğu ve aşamalı çalışma
+alwaysApply: true
+---
+
+# Bülent Alıcı web
+
+Türkçe konuş. Her çalışmanın başında `docs/ilerleme.md` ve `docs/kararlar.md` oku. Bitmiş aşamayı yeniden yapma. Aşama bitince dur; sıradaki aşama yalnızca “Devam” ile başlar.
+
+Adaylık unvanı yalnızca **16. Oteller Komitesi Meclis Üyesi Adayı**. “Yönetim Kurulu Başkanı” şirket görevidir. Eski sitedeki “Başkan adayı” veya “Turizm Komitesi” ifadeleri yeni arayüze taşınmaz; arşiv alıntısı sessizce değiştirilmez.
+
+Gerçek Next.js (App Router, TypeScript strict, Tailwind). İçerik dosya tabanlıdır. `published` yalnızca editoryal onayla olur. Üretimde taslaklar sunucu tarafında elenir. Oran, bütçe, tarih, anlaşma ve sonuç uydurulmaz. WordPress kurulumu doğrulanmadı; API varmış gibi kod yazma.
+
+Fotoğraf yokken işaretli alan kullan. Yapay portre üretme. Kampanya iletişimi teyitsizse otel rezervasyon adresini kullanma. `twitter.com/wix` taşınmaz.
+
+Başvuru: `PROJE.md`, `docs/mevcut-site-analizi.md`, `docs/icerik-envanteri.md`, `docs/kararlar.md`, `docs/ilerleme.md`.
