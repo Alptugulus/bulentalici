@@ -30,7 +30,6 @@ export type BiographySection = {
 export type Biography = {
   id: string;
   status: ContentStatus;
-  sourceNote: string;
   lead: string;
   sections: readonly BiographySection[];
   closing: string;
@@ -46,7 +45,7 @@ export type NewsItem = {
   listedOn: string;
   body: readonly string[];
   sourceName: string;
-  sourceUrl: string;
+  sourceUrl?: string;
 };
 
 export type Brand = {
@@ -55,5 +54,4 @@ export type Brand = {
   description: string;
   status: ContentStatus;
   order: number;
-  sourceNote: string;
 };

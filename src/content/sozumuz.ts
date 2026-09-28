@@ -1,5 +1,5 @@
 /**
- * Kullanıcı 28 Eylül 2026’da söz metnini ve siyah zeminli mektup düzenini verdi.
+ * Kullanıcı 28 Eylül 2026’da söz metnini verdi. Sayfa site renklerindedir; imza ana sayfadaki dosyadır.
  * Adaylık unvanı site unvanıdır. “Turizm Komitesi” yeni arayüze yazılmaz.
  * Oranlar kullanıcının verdiği sözlerdir; proje sayfasındaki vergi hedefinin yerine geçmez.
  */

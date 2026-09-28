@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: NewsPageProps): Promise<Metad
 
   return {
     title: item.title,
-    description: item.summary,
+    description: item.summary || item.title,
   };
 }
 
@@ -38,15 +38,16 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
     <Container>
       <article className="max-w-3xl py-16 md:py-20">
         <p>
-          <Link href="/haberler" className="font-medium text-navy underline-offset-4 hover:underline">
+          <Link href="/haberler" className="project-back underline-offset-4 hover:underline">
             Haberlere dön
           </Link>
         </p>
         <p className="mt-6 text-sm leading-relaxed">
-          {item.listedOn}. Yıl kaynakta yok. {item.sourceName}
+          {item.listedOn}
+          {item.sourceName ? ` · ${item.sourceName}` : ""}
         </p>
-        <h1 className="mt-3 text-3xl font-semibold leading-tight text-navy sm:text-4xl">{item.title}</h1>
-        <p className="mt-4 leading-relaxed">{item.summary}</p>
+        <h1 className="page-title mt-3">{item.title}</h1>
+        {item.summary ? <p className="mt-4 leading-relaxed">{item.summary}</p> : null}
         {item.body.length > 0 ? (
           <div className="mt-6 space-y-4">
             {item.body.map((paragraph) => (
@@ -55,15 +56,14 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
               </p>
             ))}
           </div>
-        ) : (
-          <p className="mt-6 leading-relaxed">Bu kayıtta liste sayfasında gövde metin görünmedi.</p>
-        )}
-        <p className="mt-8 text-sm leading-relaxed">
-          Kaynak:{" "}
-          <a href={item.sourceUrl} className="text-navy underline underline-offset-4">
-            {item.sourceUrl}
-          </a>
-        </p>
+        ) : null}
+        {item.sourceUrl ? (
+          <p className="mt-8 text-sm leading-relaxed">
+            <a href={item.sourceUrl} className="text-navy underline underline-offset-4">
+              Haberi oku
+            </a>
+          </p>
+        ) : null}
       </article>
     </Container>
   );

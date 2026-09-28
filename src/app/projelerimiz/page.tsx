@@ -17,8 +17,8 @@ export default function ProjectsPage() {
     <Container>
       <div className="py-16 md:py-20">
         <div className="project-collection-heading"><div className="max-w-3xl">
-          <h1 className="text-3xl font-semibold leading-tight text-navy sm:text-4xl">Projelerimiz</h1>
-          <p className="mt-4 leading-relaxed">{projectsIntro}</p>
+          <h1 className="text-navy">Projelerimiz</h1>
+          <p className="mt-4">{projectsIntro}</p>
         </div><span className="project-collection-count">{items.length} PROJE</span></div>
         {items.length > 0 ? (
           <ul className="project-collection">

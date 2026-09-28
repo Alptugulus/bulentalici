@@ -1,32 +1,27 @@
 import type { NewsItem } from "@/types/content";
 
-const sourceUrl = "https://www.bulentalici.com.tr/haberler";
-
-/** Liste sayfasında görülen kayıtlar. Yıl kaynakta yok. Kesilen cümle tamamlanmadı. */
 export const news: readonly NewsItem[] = [
   {
     id: "paravizyon",
     slug: "paravizyon-roportaji",
     title: "Bülent Alıcı Paravizyon Röportajı",
-    summary: "Liste sayfasında başlık ve tarih var. Gövde metin görünmedi.",
+    summary: "",
     status: "published",
     order: 1,
     listedOn: "3 Ağu",
     body: [],
     sourceName: "Paravizyon",
-    sourceUrl,
   },
   {
     id: "tuketici",
     slug: "tuketici-dergisi-roportaji",
     title: "Bülent Alıcı Tüketici Dergisi Röportajı",
-    summary: "Liste sayfasında başlık ve tarih var. Gövde metin görünmedi.",
+    summary: "",
     status: "published",
     order: 2,
     listedOn: "3 Ağu",
     body: [],
     sourceName: "Tüketici Dergisi",
-    sourceUrl,
   },
   {
     id: "turizm-ajansi",
@@ -40,10 +35,8 @@ export const news: readonly NewsItem[] = [
     body: [
       "Bülent Alıcı, sigorta prim desteği kapsamına alınmayan basit belgeli otellerin de bu destek içinde değerlendirilmesini istedi.",
       "Açıklamada, 1.900 basit belgeli otelin Kültür ve Turizm Bakanlığına bağlı çalıştığı, SGK yükümlülüklerini yerine getirdiği ve istihdam sağladığı belirtildi.",
-      "Liste sayfasındaki metin yarıda kesildiği için devamı buraya yazılmadı.",
     ],
     sourceName: "Turizm Ajansı",
-    sourceUrl,
   },
   {
     id: "degisim",
@@ -55,12 +48,10 @@ export const news: readonly NewsItem[] = [
     listedOn: "3 Ağu",
     body: [
       "Yazıda İstanbul'un büyük bir turizm destinasyonu olmasına rağmen turizmden hak ettiği payı tam alamadığı belirtiliyor.",
-      "Aynı yazı, İTO 16. Oteller Komitesi seçimlerinin ekim ayında yapılacağını söylüyor. Yıl, liste metninde yok.",
+      "Aynı yazı, İTO 16. Oteller Komitesi seçimlerinin ekim ayında yapılacağını söylüyor.",
       "Bülent Alıcı'nın aktarılan sözleri: “İstanbul kazanacaksa değişim şart.” ve “İstanbul'un turizmde yeni vizyonunu ortaya koyacağız.”",
-      "Liste sayfasındaki metin yarıda kesildiği için devamı buraya yazılmadı.",
     ],
-    sourceName: "Basın derlemesi",
-    sourceUrl,
+    sourceName: "",
   },
   {
     id: "hotel-gazetesi-agustos",
@@ -73,10 +64,8 @@ export const news: readonly NewsItem[] = [
     body: [
       "Bülent Alıcı, turizm sektörüne sağlanan SGK prim desteğinin yalnızca turizm işletmesi belgeli tesislerle sınırlı kalmaması gerektiğini söyledi.",
       "Hotel Gazetesi metninde İstanbul'da yaklaşık 1.900 basit konaklama belgeli tesis olduğu, bu işletmelerin vergi ödediği ve kayıtlı istihdam sağladığı yazıyor.",
-      "Liste sayfasındaki metin yarıda kesildiği için devamı buraya yazılmadı.",
     ],
     sourceName: "Hotel Gazetesi",
-    sourceUrl,
   },
   {
     id: "turizm-aktuel",
@@ -90,10 +79,8 @@ export const news: readonly NewsItem[] = [
       "Röportajda Bülent Alıcı, Türk turizminin yalnızca doluluk oranlarını değil, üretilen değeri de konuşması gerektiğini söylüyor.",
       "Hedefi, transit yolcu sayısını artırmak değil, İstanbul'a girip şehre ekonomik değer bırakan ziyaretçi sayısını artırmak olarak anlatıyor.",
       "Turizmin otel, esnaf, restoran, ulaşım ve ticareti birlikte etkilediği belirtiliyor.",
-      "Liste sayfasındaki metin yarıda kesildiği için devamı buraya yazılmadı.",
     ],
     sourceName: "Turizm Aktüel",
-    sourceUrl,
   },
   {
     id: "itb",
@@ -105,33 +92,29 @@ export const news: readonly NewsItem[] = [
     listedOn: "22 Nis",
     body: [
       "2026 ITB Berlin Turizm Fuarı kapsamında Turizm Aktüel Dergisi'nde yayımlanan röportajın konusu, İstanbul'un turizm vizyonu, fuar turizmi ve sektörün ortak hareket etmesidir.",
-      "Liste sayfasında röportajın tam metni yok.",
     ],
     sourceName: "Turizm Aktüel",
-    sourceUrl,
   },
   {
     id: "hotel-gazetesi-nisan",
     slug: "hotel-gazetesi-nisan",
     title: "Bülent Alıcı Hotel Gazetesine Konuştu",
-    summary: "22 Nis tarihli ikinci Hotel Gazetesi kaydı. Liste sayfasında gövde metin görünmedi.",
+    summary: "",
     status: "published",
     order: 8,
     listedOn: "22 Nis",
     body: [],
     sourceName: "Hotel Gazetesi",
-    sourceUrl,
   },
   {
     id: "klass",
     slug: "klass-magazine",
     title: "Bülent Alıcı Klass Magazine'e Konuştu",
-    summary: "Liste sayfasında başlık ve tarih var. Gövde metin görünmedi.",
+    summary: "",
     status: "published",
     order: 9,
     listedOn: "22 Nis",
     body: [],
     sourceName: "Klass Magazine",
-    sourceUrl,
   },
 ];

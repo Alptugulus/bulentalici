@@ -20,7 +20,6 @@ export function ProjectCover({ project, count }: { project: Project; count: numb
         <h1>{project.title}</h1>
         <p>{project.summary}</p>
       </div>
-      {visual.cover ? <p className="project-cover-caption">{visual.cover.caption}</p> : null}
     </header>
   );
 }

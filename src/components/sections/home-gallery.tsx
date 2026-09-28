@@ -10,10 +10,9 @@ export function HomeGallery() {
     <section id="galeri" aria-labelledby="galeri-baslik" className="scroll-mt-6 bg-surface py-16 md:py-20">
       <Container>
         <div className="max-w-3xl">
-          <h2 id="galeri-baslik" className="text-3xl font-semibold leading-tight text-navy">
+          <h2 id="galeri-baslik" className="page-title">
             Galeri
           </h2>
-          <p className="mt-4 leading-relaxed">Seçilen portreler.</p>
         </div>
         <ul className="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-3">
           {items.map((portrait) => (
@@ -26,7 +25,7 @@ export function HomeGallery() {
           ))}
         </ul>
         <p className="mt-6">
-          <Link href="/galeri" className="font-medium text-navy underline-offset-4 hover:underline">
+          <Link href="/galeri" className="text-action underline-offset-4 hover:underline">
             Tüm portreler
           </Link>
         </p>

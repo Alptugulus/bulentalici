@@ -82,8 +82,12 @@ body {
 .site-header > div > div > a { font-size: 1.25rem; letter-spacing: -.035em; }
 .site-footer { padding-block: 12px; }
 .project-collection-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; margin-bottom: 36px; }
-.project-collection-heading h1, .project-collection-heading h2 { font-size: clamp(2.25rem, 4.5vw, 3.5rem); line-height: 1.08; letter-spacing: -.045em; font-weight: 600; }
-.project-collection-heading p { color: var(--muted-ink); max-width: 64ch; font-size: 1.0625rem; }
+.project-collection-heading h1, .project-collection-heading h2, .page-title { font-size: clamp(2.25rem, 4.5vw, 3.5rem); line-height: 1.08; letter-spacing: -.045em; font-weight: 600; text-wrap: balance; }
+.page-title { color: var(--navy); }
+.page-intro, .project-collection-heading p { color: var(--muted-ink); max-width: 64ch; font-size: 1.0625rem; line-height: 1.7; }
+.content-card { height: 100%; border-radius: var(--radius-panel); border: 1px solid var(--line); background: var(--paper); padding: 22px 24px; }
+.site-footer nav a, .text-action { display: inline-flex; min-height: 44px; align-items: center; }
+.text-action { font-weight: 500; color: var(--navy); }
 .project-collection-count { flex-shrink: 0; font-size: .8125rem; letter-spacing: .1em; color: var(--muted-ink); padding-bottom: 5px; }
 .project-collection { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .project-card { min-width: 0; height: 100%; }
@@ -96,7 +100,8 @@ body {
 .project-category { font-size: .8125rem; font-weight: 500; color: #c3d6ef; }
 .project-number { font-size: .8125rem; font-variant-numeric: tabular-nums; letter-spacing: .06em; color: #c3d6ef; }
 .project-card-body { padding: 30px 0 24px; flex: 1; }
-.project-card-title { max-width: 28ch; font-size: clamp(1.3rem, 2.2vw, 1.7rem); font-weight: 600; letter-spacing: -.03em; line-height: 1.22; text-wrap: balance; }
+.project-card-title, .project-cover h1 { text-shadow: 0 1px 10px rgba(8,23,42,.45); }
+.project-card-title { max-width: 28ch; font-size: clamp(1.35rem, 2.2vw, 1.7rem); font-weight: 600; letter-spacing: -.03em; line-height: 1.22; text-wrap: balance; }
 .project-card-summary { margin-top: 14px; max-width: 48ch; color: #dce6f4; line-height: 1.65; font-size: 1rem; }
 .project-card-bottom { display: flex; align-items: center; justify-content: space-between; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.2); font-size: .875rem; font-weight: 500; }
 .project-arrow { font-size: 1.45rem; line-height: 1; transition: transform 180ms ease; }
@@ -112,11 +117,10 @@ body {
 .project-cover-meta { display: flex; gap: 16px; justify-content: space-between; flex-wrap: wrap; color: #c3d6ef; font-size: .8125rem; font-weight: 500; letter-spacing: .03em; margin-bottom: 34px; }
 .project-cover h1 { max-width: 24ch; font-size: clamp(2rem,4.2vw,3.375rem); letter-spacing: -.045em; line-height: 1.13; font-weight: 600; text-wrap: balance; }
 .project-cover-copy > p { margin-top: 22px; max-width: 62ch; font-size: clamp(1rem,1.5vw,1.125rem); line-height: 1.7; color: #e1eaf5; }
-.project-cover-caption { position: absolute; bottom: 12px; right: 20px; font-size: .75rem; color: #dbe6f5; background: rgba(8,23,42,.8); padding: 3px 8px; border-radius: 4px; }
 .project-back { display: inline-flex; gap: 10px; min-height: 44px; align-items: center; font-size: .875rem; color: var(--muted-ink); }
 .project-story { margin-top: 30px; }
 .project-story :where(section,details) { border-radius: var(--radius-panel); padding: clamp(22px,3.5vw,36px); }
-.project-story :where(article) { border-radius: 12px; }
+.project-story :where(article) { border-radius: var(--radius-panel); }
 .project-story h2 { letter-spacing: -.025em; text-wrap: balance; }
 .project-story h3 { letter-spacing: -.018em; }
 .project-story :where(button,select,input:not([type="range"]):not([type="checkbox"])) { min-height: 44px; border-radius: var(--radius-control); }
@@ -140,7 +144,8 @@ body {
   .project-card-link { min-height: 300px; }
   .project-card-content { padding: 24px; }
   .project-card-body { padding: 24px 0; }
-  .project-card-title { font-size: 1.5rem; }
+  .project-card-title, .project-cover h1 { font-size: 1.5rem; text-shadow: none; }
+  .project-cover-with-image .project-cover h1, .project-card-image + .project-card-shade + .project-card-content .project-card-title { font-size: 1.625rem; text-shadow: 0 1px 10px rgba(8,23,42,.55); }
   .project-cover { min-height: 0; }
   .project-cover-copy { padding: 28px 24px 36px; }
   .project-cover-with-image .project-cover-copy { padding-bottom: 58px; }

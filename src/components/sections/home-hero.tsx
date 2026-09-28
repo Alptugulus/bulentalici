@@ -44,13 +44,13 @@ export function HomeHero() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
                   href="/projelerimiz"
-                  className="inline-flex max-w-full items-center justify-center rounded-md bg-paper px-4 py-2.5 text-center font-medium text-navy"
+                  className="inline-flex min-h-11 max-w-full items-center justify-center rounded-md bg-paper px-4 text-center font-medium text-navy"
                 >
                   Projelerimiz
                 </Link>
                 <Link
                   href="/hakkimda"
-                  className="inline-flex max-w-full items-center justify-center rounded-md border border-white px-4 py-2.5 text-center font-medium text-white"
+                  className="inline-flex min-h-11 max-w-full items-center justify-center rounded-md border border-white px-4 text-center font-medium text-white"
                 >
                   Bülent Alıcı&apos;yı Tanıyın
                 </Link>

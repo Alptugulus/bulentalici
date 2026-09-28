@@ -11,7 +11,7 @@ export function HomeProjects() {
     <section id="projeler" aria-labelledby="projeler-baslik" className="scroll-mt-6 bg-surface py-16 md:py-20">
       <Container>
         <div className="project-collection-heading"><div className="max-w-3xl">
-          <h2 id="projeler-baslik" className="text-3xl font-semibold leading-tight text-navy">
+          <h2 id="projeler-baslik" className="text-navy">
             Projelerimiz
           </h2>
           <p className="mt-4 leading-relaxed">{projectsIntro}</p>

@@ -8,7 +8,7 @@ export function HomeIntro() {
       <Container>
         <BiographyStatement heading="Tanıtım" headingAs="h2" headingId="tanitim-baslik" labelAs="h3" />
         <p className="mt-8">
-          <Link href="/hakkimda" className="font-medium text-navy underline-offset-4 hover:underline">
+          <Link href="/hakkimda" className="text-action underline-offset-4 hover:underline">
             Hakkımda sayfası
           </Link>
         </p>

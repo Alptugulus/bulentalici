@@ -15,20 +15,15 @@ export default function NewsPage() {
   return (
     <Container>
       <div className="py-16 md:py-20">
-        <div className="max-w-3xl">
-          <h1 className="text-3xl font-semibold leading-tight text-navy sm:text-4xl">Haberler</h1>
-          <p className="mt-4 leading-relaxed">
-            Eski sitede görülen dokuz kayıt. Arşivin tamamı bu liste değildir. Tarihlerde yıl yok.
-            Tekil sayfa adresleri eşlenmedi.
-          </p>
-        </div>
+        <h1 className="page-title">Haberler</h1>
         {items.length > 0 ? (
           <ul className="mt-8 grid gap-4">
             {items.map((item) => (
               <li key={item.id}>
-                <article className="rounded-md border border-navy/10 bg-paper p-5">
+                <article className="content-card">
                   <p className="text-sm leading-relaxed">
-                    {item.listedOn}. Yıl yazılmadı. {item.sourceName}
+                    {item.listedOn}
+                    {item.sourceName ? ` · ${item.sourceName}` : ""}
                   </p>
                   <h2 className="mt-2 text-xl font-semibold leading-snug text-navy">
                     <Link
@@ -38,7 +33,7 @@ export default function NewsPage() {
                       {item.title}
                     </Link>
                   </h2>
-                  <p className="mt-2 leading-relaxed">{item.summary}</p>
+                  {item.summary ? <p className="mt-2 leading-relaxed">{item.summary}</p> : null}
                 </article>
               </li>
             ))}

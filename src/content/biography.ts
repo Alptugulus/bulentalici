@@ -4,7 +4,6 @@ import type { Biography } from "@/types/content";
 export const biographyDraft: Biography = {
   id: "tanitim",
   status: "published",
-  sourceNote: "Tanıtım metni, Bülent Alıcı ile 28 Eylül 2026’da paylaşıldı.",
   lead: "Ben Bülent Alıcı. 1975 yılında İstanbul’da doğdum, aslen Konyalıyım. Evli ve üç çocuk babasıyım.",
   sections: [
     {

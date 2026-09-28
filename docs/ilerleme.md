@@ -64,7 +64,11 @@ Aynı gün kampanya dili: sekiz başlığın amacı ve adımı net cümleyle yaz
 
 Aynı gün muhataplar adlandırıldı. Enerji: Enerji ve Tabii Kaynaklar Bakanlığı, Kültür ve Turizm Bakanlığı ve sivil toplum kuruluşlarıyla toplantı. Vergi: Hazine ve Maliye Bakanlığı; dosya Kültür ve Turizm Bakanlığı ile. SGK: Sosyal Güvenlik Kurumu ve Çalışma ve Sosyal Güvenlik Bakanlığı. Etkinlik: Kültür ve Turizm Bakanlığı. Platform, yapay zekâ, oda geliri ve şeffaflık Oteller Komitesi ile otelcinin işidir.
 
-Aynı gün `/sozumuz` eklendi. Kullanıcının verdiği mektup, siyah zeminde, masa portresi ve beyaz imza ile duruyor. Adaylık unvanı değişmedi. Mektuptaki “Turizm Komitesi” satırı arayüze yazılmadı. Binde 7,5 ve yüzde 25 kullanıcının sözüdür. Güneş paneli için bakanlık adı verilmediği için uydurulmadı.
+Aynı gün `/sozumuz` eklendi. Kullanıcının verdiği mektup duruyor. Siyah zemin ve beyaz imza kalktı; sayfa lacivert-beyaz düzendedir ve ana sayfadaki imzayı kullanır. Açılışta portre geniş kadrajdadır; alt bantta yalnızca başlık ve yan yana duran “İstanbul Ticaret Odası” ile adaylık unvanı vardır. “Sevgili dostlar;” mektubun başındadır. Yazı yüze binmez. Adaylık unvanı değişmedi. Mektuptaki “Turizm Komitesi” satırı arayüze yazılmadı. Binde 7,5 ve yüzde 25 kullanıcının sözüdür. Güneş paneli için bakanlık adı verilmediği için uydurulmadı.
+
+Aynı gün arayüzdeki envanter notları kalktı: yıl yok, gövde görünmedi, kesik metin, marka kaynak notu, “Temsili proje görseli” alt yazısı ve teyitsiz iletişim açıklaması. Haber görseli ve haber adresi eklenmedi.
+
+Aynı gün tasarım bütünlüğü: başlık ölçüsü, kart köşesi, 44 px dokunma alanı ve metin bağlantısı sayfalarda ortaklaştı. Sekiz proje sahnesi metinsiz üretildi; başlıklar HTML’de duruyor. Eski rezervasyon görselindeki ışık halkası kalktı. Hesap formülleri ve Sözümüz metni duruyor. Canlı yayın yapılmadı.
 
 ## Kontroller
 

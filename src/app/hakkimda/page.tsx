@@ -5,7 +5,6 @@ import { Container } from "@/components/layout/container";
 import { BiographyStatement } from "@/components/sections/biography-statement";
 import { brandsHref } from "@/content/navigation";
 import { aboutPortraitId, getPortrait } from "@/content/portraits";
-import { siteConfig } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Hakkımda",
@@ -38,9 +37,6 @@ export default function AboutPage() {
                     className="object-cover object-center"
                   />
                 </div>
-                <figcaption className="mt-3 text-sm leading-relaxed">
-                  {siteConfig.name}. {siteConfig.candidacyTitle}.
-                </figcaption>
               </figure>
             ) : null
           }
@@ -48,7 +44,7 @@ export default function AboutPage() {
         <p className="mt-8">
           <Link
             href={brandsHref.href}
-            className="font-medium text-navy underline-offset-4 hover:underline"
+            className="text-action underline-offset-4 hover:underline"
           >
             {brandsHref.label}
           </Link>
