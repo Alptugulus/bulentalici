@@ -1,5 +1,5 @@
 /**
- * Markalar ana menüde değil; Hakkımda ve alt bilgidedir.
+ * Markalar ana menüde değil; Hakkımda sayfasındadır.
  */
 export const mainNav = [
   { href: "/", label: "Ana Sayfa" },

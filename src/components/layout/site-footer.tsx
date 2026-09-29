@@ -1,37 +1,24 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/container";
-import { brandsHref, mainNav } from "@/content/navigation";
 import { siteConfig } from "@/content/site";
 
 export function SiteFooter() {
   return (
-    <footer className="site-footer mt-auto border-t border-ink/10 bg-surface">
+    <footer className="site-footer mt-auto bg-navy text-white">
       <Container>
-        <div className="flex flex-wrap items-start justify-between gap-8 py-8">
-          <div className="min-w-0 max-w-xl">
-            <p className="font-semibold text-navy">{siteConfig.name}</p>
-            <p className="mt-1 leading-relaxed">{siteConfig.candidacyTitle}</p>
-            <p className="mt-3 font-medium leading-snug text-navy">
-              {siteConfig.campaignLines[0]} {siteConfig.campaignLines[1]}
+        <div className="flex flex-col gap-8 py-12 sm:py-14 lg:flex-row lg:items-center lg:justify-between">
+          <Link href="/" className="footer-mark" aria-label={siteConfig.name}>
+            <Image src="/images/giris/imza-header.png" alt="" width={410} height={128} />
+          </Link>
+          <div className="max-w-xl">
+            <p className="text-sm font-medium tracking-wide text-white/75">{siteConfig.organizationContext}</p>
+            <p className="mt-2 text-lg font-semibold leading-snug">{siteConfig.candidacyTitle}</p>
+            <p className="mt-6 border-l-4 border-white pl-4 text-2xl font-semibold leading-snug">
+              {siteConfig.campaignLines[0]}
             </p>
+            <p className="mt-2 pl-5 text-xl leading-snug text-white/90">{siteConfig.campaignLines[1]}</p>
           </div>
-          <nav aria-label="Alt bilgi" className="flex flex-wrap gap-x-4 gap-y-2">
-            {mainNav.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-base leading-snug text-navy underline-offset-4 hover:underline"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Link
-              href={brandsHref.href}
-              className="text-base leading-snug text-navy underline-offset-4 hover:underline"
-            >
-              {brandsHref.label}
-            </Link>
-          </nav>
         </div>
       </Container>
     </footer>

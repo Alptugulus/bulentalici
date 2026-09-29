@@ -12,7 +12,7 @@
 | İçerik | Dosya tabanlı başlangıç. `draft` / `published`. Üretimde taslak sızmaz |
 | Tasarım başlangıcı | Lacivert `#10253F`, beyaz `#FFFFFF`, yüzey `#F3F6FA`, vurgu `#2563EB`, metin `#172B4D`. Renkler CSS değişkenlerinde. Yazı: Inter uygunsa, değilse sistem sans-serif. Gövde en az 16 px |
 | Karşılama | İlk başlık isim ve doğrulanmış unvandır. Eski slogan onaysızdır. “Değişim şart.” ve “Mavi listede buluşalım.” kullanıcı 28 Eylül 2026’da tasarım vurgusu olarak verdi; unvanın yerini almaz. Giriş `4.JPG` üzerindedir; imza ve altındaki şirket görevi de görselin üzerindedir. Bu görev adaylık unvanı değildir |
-| Menü | Ana Sayfa, Hakkımda, Sözümüz, Projelerimiz, Haberler, Galeri, İletişim. Markalarımız Hakkımda ve alt bilgiden |
+| Menü | Ana Sayfa, Hakkımda, Sözümüz, Projelerimiz, Haberler, Galeri, İletişim. Markalarımız Hakkımda sayfasındadır. Alt bilgide menü yoktur |
 | Görseller | Fotoğraf yokken işaretli yerel alan. Yapay portre yok |
 | Form ve bülten | Hizmet bağlanmadan yok. Sahte başarı yok |
 | İzleme | Analitik, reklam veya çerez katmanı ihtiyaç doğrulanmadan eklenmez |
