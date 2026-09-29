@@ -4,7 +4,15 @@ import { DraftBadge } from "@/components/ui/draft-badge";
 import { projectVisuals } from "@/content/project-visuals";
 import type { Project } from "@/types/content";
 
-export function ProjectCard({ project, titleAs }: { project: Project; titleAs: "h2" | "h3" }) {
+export function ProjectCard({
+  project,
+  titleAs,
+  index,
+}: {
+  project: Project;
+  titleAs: "h2" | "h3" | "h4";
+  index: number;
+}) {
   const Title = titleAs;
   const visual = projectVisuals[project.example];
   return (
@@ -19,7 +27,7 @@ export function ProjectCard({ project, titleAs }: { project: Project; titleAs: "
         <div className="project-card-content">
           <div className="project-card-top">
             <span className="project-category">{visual.category}</span>
-            <span className="project-number">{String(project.order).padStart(2, "0")}</span>
+            <span className="project-number">{String(index + 1).padStart(2, "0")}</span>
           </div>
           <div className="project-card-body">
             {project.status === "draft" ? <DraftBadge /> : null}

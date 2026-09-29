@@ -35,18 +35,14 @@ export function TaxStory() {
     <section className="mt-4 rounded-md border border-navy/10 bg-paper p-6" aria-labelledby="vergi-baslik">
       <p className="text-sm font-medium tracking-wide text-navy">Geldiğimizde yapacaklarımız</p>
       <h2 id="vergi-baslik" className="mt-2 text-2xl font-semibold leading-snug text-navy">
-        Otellerimizin vergi yükünü yüzde 5’e düşüreceğiz.
+        Turizmde vergi yükünü 5 puan azaltacağız.
       </h2>
-      <div className="mt-5 grid gap-4 md:grid-cols-2">
-        <article className="rounded-md bg-surface p-5">
-          <h3 className="text-xl font-semibold text-navy">Bugün</h3>
-          <p className="mt-3 leading-relaxed">Otellerimizde vergi yükü yüzde 10.</p>
-        </article>
-        <article className="rounded-md bg-surface p-5">
-          <h3 className="text-xl font-semibold text-navy">Hedefimiz</h3>
-          <p className="mt-3 leading-relaxed">Bu yükü yüzde 5’e indirmek.</p>
-        </article>
-      </div>
+      <p className="mt-4 leading-relaxed">
+        Kaynak vergi türünü belirtmiyor. Kazancın yatırıma, istihdama ve hizmet kalitesine yönelmesi amaçlanıyor.
+      </p>
+      <p className="mt-4 leading-relaxed">
+        Bu sayfada daha önce hedef, yüzde 10 olan yükün yüzde 5’e inmesi olarak yazılmıştı. Güncel kaynak 5 puan diyor.
+      </p>
     </section>
   );
 }

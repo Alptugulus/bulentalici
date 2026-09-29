@@ -9,7 +9,7 @@ Sen bu projede Next.js geliştiricisi, arayüz tasarımcısı ve teknik uygulama
 ## 1. Kesinleşmiş proje bilgileri
 
 - İsim: **Bülent Alıcı**.
-- Kullanıcının doğruladığı adaylık unvanı: **16. Oteller Komitesi Meclis Üyesi Adayı**.
+- Kullanıcının doğruladığı adaylık unvanı: **16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı**.
 - Kurumsal bağlam: İstanbul Ticaret Odası.
 - Referans site: https://www.bulentalici.com.tr/
 - Hedef: Mevcut siteyi yeni tasarımla, gerçek Next.js kullanarak yeniden geliştirmek; projeler/vaatler ve yeni fotoğraflar eklemek.

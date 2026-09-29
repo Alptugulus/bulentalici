@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/container";
+import { ProjectCollection } from "@/components/sections/project-collection";
 import { EmptyState } from "@/components/ui/empty-state";
-import { ProjectCard } from "@/components/ui/project-card";
 import { projectsHeading, projectsIntro, projectsLead } from "@/content/projects";
 import { getVisibleProjects } from "@/lib/content";
 
@@ -20,16 +20,10 @@ export default function ProjectsPage() {
           <h1 className="text-navy">Projelerimiz</h1>
           <p className="projects-kicker mt-4">{projectsHeading}</p>
           <p className="mt-4">{projectsLead}</p>
-          <p className="mt-4">{projectsIntro}</p>
-        </div><span className="project-collection-count">{items.length} PROJE</span></div>
+          <p className="mt-4">{projectsIntro(items)}</p>
+        </div></div>
         {items.length > 0 ? (
-          <ul className="project-collection">
-            {items.map((project) => (
-              <li key={project.id} className="min-w-0">
-                <ProjectCard project={project} titleAs="h2" />
-              </li>
-            ))}
-          </ul>
+          <ProjectCollection cardTitle="h3" />
         ) : (
           <div className="mt-8">
             <EmptyState>Onaylı proje metni henüz yok.</EmptyState>

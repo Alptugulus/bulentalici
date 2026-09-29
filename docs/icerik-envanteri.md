@@ -23,7 +23,7 @@ Sayfası olan adresler: `/hakkimda`, `/projelerimiz`, `/projelerimiz/[slug]`, `/
 | Alan | Değer | Durum |
 |---|---|---|
 | Ad | Bülent Alıcı | Kullanıcı doğruladı |
-| Adaylık unvanı | 16. Oteller Komitesi Meclis Üyesi Adayı | Kullanıcı doğruladı |
+| Adaylık unvanı | 16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı | 29 Eylül 2026 teyidi |
 | Kurumsal bağlam | İstanbul Ticaret Odası | Bağlam; sitenin İTO’nun resmi sitesi olduğu izlenimi verilmez |
 | Şirket içi görev | Eski sitede Eser Hoteller / Eser Oteller Grubu Yönetim Kurulu Başkanı | İş unvanı; adaylık unvanından ayrı, yazım teyidi gerekir |
 

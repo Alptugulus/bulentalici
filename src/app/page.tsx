@@ -1,3 +1,4 @@
+import { HomeApproach } from "@/components/sections/home-approach";
 import { HomeContact } from "@/components/sections/home-contact";
 import { HomeGallery } from "@/components/sections/home-gallery";
 import { HomeHero } from "@/components/sections/home-hero";
@@ -10,6 +11,7 @@ export default function HomePage() {
     <>
       <HomeHero />
       <HomeIntro />
+      <HomeApproach />
       <HomeProjects />
       <HomeNews />
       <HomeGallery />

@@ -8,7 +8,22 @@ export type ProjectExample =
   | "digital"
   | "events"
   | "room-revenue"
-  | "transparency";
+  | "transparency"
+  | "term-limit"
+  | "youth"
+  | "inclusive"
+  | "member-desk";
+
+export type ProjectCategory =
+  | "isletme-maliyetleri"
+  | "rezervasyon-dijitallesme"
+  | "temsil-yonetim"
+  | "uye-hizmetleri";
+
+export type ProjectPoster = {
+  src: string;
+  alt: string;
+};
 
 export type Project = {
   id: string;
@@ -18,7 +33,11 @@ export type Project = {
   status: ContentStatus;
   order: number;
   example: ProjectExample;
+  category: ProjectCategory;
+  paragraphs: readonly string[];
+  poster?: ProjectPoster;
   closing?: string;
+  priorStatement?: string;
 };
 
 export type BiographySection = {

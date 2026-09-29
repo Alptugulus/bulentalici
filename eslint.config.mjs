@@ -7,11 +7,13 @@ const eslintConfig = defineConfig([
   ...nextTs,
   // Override default ignores of eslint-config-next.
   globalIgnores([
-    // Default ignores of eslint-config-next:
     ".next/**",
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "otelciler_ne_kanzandı.html",
+    "otelciler_ne_kanzandı_files/**",
+    "cursor-web-paketi/**",
   ]),
 ]);
 

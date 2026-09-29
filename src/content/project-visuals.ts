@@ -47,4 +47,20 @@ export const projectVisuals: Record<ProjectExample, ProjectVisual> = {
     category: "Açık yönetim",
     cover: scene("seffaf-yonetim", "Cam toplantı odasında açık dosyalar ve tablet."),
   },
+  "term-limit": {
+    category: "Temsil",
+    cover: scene("donem-siniri", "Toplantı masasında üç lacivert klasör ve boş defter; camdan İstanbul."),
+  },
+  youth: {
+    category: "Temsil",
+    cover: scene("genc-temsil", "Pencere önünde boş defter ve kalem; camdan İstanbul."),
+  },
+  inclusive: {
+    category: "Temsil",
+    cover: scene("kapsayici-temsil", "Masada üç anahtar; camdan kıyı otelleri ve İstanbul."),
+  },
+  "member-desk": {
+    category: "Üye hizmeti",
+    cover: scene("sorun-takibi", "Boş masada telefon, defter ve duvar saati; camdan İstanbul."),
+  },
 };

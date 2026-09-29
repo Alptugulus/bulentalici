@@ -5,7 +5,7 @@
 | Konu | Karar |
 |---|---|
 | Ürün | Mevcut tanıtım sitesinin Next.js ile yeniden kurulması |
-| Unvan | Yeni arayüzde yalnızca “16. Oteller Komitesi Meclis Üyesi Adayı” |
+| Unvan | 29 Eylül 2026 teyidi: “16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı”. “Yönetim Kurulu Başkanı” şirket görevidir |
 | Dil | Türkçe; ilk sürümde tek dil |
 | Çalışma biçimi | Aşama bitince dur. Sıradaki aşama “Devam” ile başlar |
 | Stack (Aşama 1’de kurulacak) | Next.js App Router, TypeScript strict, Tailwind. Kararlı sürümler o aşamada resmi dokümantasyonla doğrulanır. Deneysel sürüm yok |
@@ -43,6 +43,8 @@ Aynı gün öğleden sonra dil: net cümle, “otellerimiz” ve “misafirimiz�
 28 Eylül 2026 akşamı haberler: paylaşılan paketteki altı kayıt. Kapaklar yerel dosyadır. Görünür tarih yıl içermez. Yazılı gövdesi olmayan röportajlar sayfa görseli olarak durur. Kaynak adresi eski site haber sayfasıdır.
 
 Aynı gün kampanya cümlesi: her projede hedef ve adım yazılır. Enerji muhatabı Enerji ve Tabii Kaynaklar Bakanlığı, Kültür ve Turizm Bakanlığı ve sektörün sivil toplum kuruluşlarıdır; ortak dilde toplantı yapılacaktır. Vergi muhatabı Hazine ve Maliye Bakanlığı’dır; dosya Kültür ve Turizm Bakanlığı ile hazırlanır. SGK talebi Sosyal Güvenlik Kurumu ve Çalışma ve Sosyal Güvenlik Bakanlığı’nadır. Etkinlik iş birliği Kültür ve Turizm Bakanlığı iledir. Platform, yapay zekâ, oda geliri ve şeffaflık Oteller Komitesi ile otelcinin işidir. Belirli STK adı, enerji yüzdesi, SGK tutarı, etkinlik adı ve harcama tutarı uydurulmaz.
+
+29 Eylül 2026 web paketi: kullanıcı teyidi adaylık unvanını “16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı” yaptı. Vergi başlığı “5 puan”dır; vergi türü ve başlangıç oranı kaynakta yoktur. Önceki yüzde 10’dan yüzde 5 ifadesi vergi sayfasında fark olarak durur. Sözümüz’deki binde 7,5 ve binde 3,5 ayrıdır. Seçim günü kaynaklarda 27 Ekim 2026’dır; sayaç yoktur. Dört yeni başlık `draft` kaldı. Yapay zekâ, oda geliri ve etkinlik projeleri duruyor. Canlı yayın yapılmadı.
 
 ## Açık kararlar
 

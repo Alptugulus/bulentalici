@@ -72,6 +72,8 @@ Aynı gün arayüzdeki envanter notları kalktı: yıl yok, gövde görünmedi, 
 
 Aynı gün tasarım bütünlüğü: başlık ölçüsü, kart köşesi, 44 px dokunma alanı ve metin bağlantısı sayfalarda ortaklaştı. Sekiz proje sahnesi metinsiz üretildi; başlıklar HTML’de duruyor. Eski rezervasyon görselindeki ışık halkası kalktı. Hesap formülleri ve Sözümüz metni duruyor. Canlı yayın yapılmadı.
 
+29 Eylül 2026: `cursor-web-paketi` uygulandı. Unvan “16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı”. Proje sayısı sabit “sekiz” yazısından çıktı; başlık sayı vermez. Dört yeni başlık taslaktır: dönem sınırı, gençlerin temsili, kapsayıcı temsil, üye sorun takibi. Yerel önizlemede görünürler, üretim HTML’ine girmezler. Afişler `public/images/kaynak` içindedir; sayfa metni HTML’dedir. Enerji faturası, rezervasyon örneği ve oda geliri hesabı duruyor. Üst menüde imza vardır. “27 Ekim'de mavi listede buluşalım.” ana sayfadadır. Aşama 5 başlamadı.
+
 ## Kontroller
 
 Son kodla:
@@ -83,7 +85,7 @@ Son kodla:
 | `npm run build` | Geçti, 25 sayfa |
 | Tarayıcı | `docs/test-raporu.md` |
 
-Üretim HTML’inde “Konya doğumlu”, “Enerji ve işletme”, “Değişim şart” ve portreler var. “Başkan adayı”, “Turizm Komitesi”, otel e-postası ve eski vergi oranları yok. `/politika` ve bilinmeyen haber veya proje adresi 404.
+Üretim HTML’inde “Konya doğumlu”, “Enerji ve işletme”, “Değişim şart” ve portreler var. “Turizm Komitesi”, otel e-postası ve eski vergi oranları yok. Adaylık unvanı 29 Eylül 2026 teyidiyle “Başkan ve Meclis Üyesi Adayı”dır. `/politika` ve bilinmeyen haber veya proje adresi 404.
 
 Lighthouse ve gerçek telefon ölçülmedi.
 

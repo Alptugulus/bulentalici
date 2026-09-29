@@ -7,7 +7,7 @@ alwaysApply: true
 
 Türkçe konuş. Her çalışmanın başında `docs/ilerleme.md` ve `docs/kararlar.md` oku. Bitmiş aşamayı yeniden yapma. Aşama bitince dur; sıradaki aşama yalnızca “Devam” ile başlar.
 
-Adaylık unvanı yalnızca **16. Oteller Komitesi Meclis Üyesi Adayı**. “Yönetim Kurulu Başkanı” şirket görevidir. Eski sitedeki “Başkan adayı” veya “Turizm Komitesi” ifadeleri yeni arayüze taşınmaz; arşiv alıntısı sessizce değiştirilmez.
+Adaylık unvanı **16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı**. Bu unvan 29 Eylül 2026 kaynak teyididir. “Yönetim Kurulu Başkanı” şirket görevidir. “Turizm Komitesi” yeni arayüze taşınmaz; arşiv alıntısı sessizce değiştirilmez.
 
 Gerçek Next.js (App Router, TypeScript strict, Tailwind). İçerik dosya tabanlıdır. `published` yalnızca editoryal onayla olur. Üretimde taslaklar sunucu tarafında elenir. Oran, bütçe, tarih, anlaşma ve sonuç uydurulmaz. WordPress kurulumu doğrulanmadı; API varmış gibi kod yazma.
 

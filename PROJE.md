@@ -4,7 +4,7 @@ Yeniden geliştirilecek site, İstanbul Ticaret Odası bağlamında **Bülent Al
 
 ## Doğrulanmış bilgiler
 
-Kullanıcının doğruladığı adaylık unvanı tek kaynaktır: **16. Oteller Komitesi Meclis Üyesi Adayı**.
+Kullanıcının doğruladığı adaylık unvanı tek kaynaktır: **16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı**. 29 Eylül 2026 teyidi önceki “Meclis Üyesi Adayı” satırının yerini aldı.
 
 “Yönetim Kurulu Başkanı” şirket içi bir iş unvanıdır; adaylık unvanı değildir. Eski sitede “Başkan adayı”, “Turizm Komitesi” ve “Meclis Üyeliğine Adayım” gibi farklı ifadeler vardır. Yeni arayüz doğrulanmış unvanı kullanır. Arşiv haberi ve alıntı sessizce yeniden yazılmaz.
 

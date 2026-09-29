@@ -4,7 +4,7 @@ import { BiographyStatement } from "@/components/sections/biography-statement";
 
 export function HomeIntro() {
   return (
-    <section id="tanitim" aria-labelledby="tanitim-baslik" className="scroll-mt-6 py-16 md:py-24">
+    <section id="tanitim" aria-labelledby="tanitim-baslik" className="scroll-mt-6 pt-16 pb-10 md:pt-24 md:pb-12">
       <Container>
         <BiographyStatement heading="Tanıtım" headingAs="h2" headingId="tanitim-baslik" labelAs="h3" />
         <p className="mt-8">
