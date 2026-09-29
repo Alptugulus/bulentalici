@@ -75,8 +75,6 @@ export const projects: readonly Project[] = [
       "002-proje-1-sgk-destegi",
       "Basit Konaklama Belgeli Tesislere SGK Desteği başlıklı paylaşım afişi.",
     ),
-    closing:
-      "Prim desteği Sosyal Güvenlik Kurumu’nun işidir. Talebi Sosyal Güvenlik Kurumu’na ve Çalışma ve Sosyal Güvenlik Bakanlığı’na taşıyacağız. Her gelişmeyi üyelerimizle paylaşacağız.",
   },
   {
     id: "enerji",
