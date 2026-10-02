@@ -57,15 +57,17 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
           </section>
         ) : null}
         <NewsFigures images={item.images} />
-        <p className="mt-8">
-          <a
-            href={item.sourceUrl}
-            className="text-action underline-offset-4 hover:underline"
-            rel="noopener noreferrer"
-          >
-            Kaynak haberi aç
-          </a>
-        </p>
+        {item.sourceUrl ? (
+          <p className="mt-8">
+            <a
+              href={item.sourceUrl}
+              className="text-action underline-offset-4 hover:underline"
+              rel="noopener noreferrer"
+            >
+              Kaynak haberi aç
+            </a>
+          </p>
+        ) : null}
       </article>
     </Container>
   );

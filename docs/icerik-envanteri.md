@@ -63,6 +63,8 @@ Eski adresler 404: `finansmana-erisim`, `nitelikli-personel`, `dijitallesme`, `b
 
 Enerji sayfası örnek fatura hesabını korur. Kesin indirim taahhüdü yazılmaz.
 
+2 Ekim 2026: Quality of Magazine, Ekim 2026, sayı 208. Kapak ve iki iç sayfa. Başlık “Otelcinin kaybedecek bir dört yıl daha yok”. Kapak satırı “Sektöre hizmet için adayım.”
+
 ## Haber listesi (kısmi)
 
 Liste sayfasında görülen başlıklar. Yıl çoğu satırda yok. “0 dakikada okunur” olanlar büyük olasılıkla görsel ağırlıklı; yapay haber metniyle doldurulmayacak. Arşivin tamamı bu dokuz kayıt değildir.

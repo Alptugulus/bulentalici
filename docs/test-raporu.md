@@ -76,6 +76,10 @@ Tarayıcıda `/hakkimda` şirket görevini adaylıktan ayırıyor. Haber listesi
 
 28 Eylül 2026. İmza ve “Eser Hoteller Yönetim Kurulu Başkanı” yazısı `4.JPG` bandının içinde. 1100 px ve 390 px genişlikte imza fotoğraf kutusunun altında değil; yatay taşma yok. Telefonda yüz kadrajda.
 
+## Haber — Quality of Magazine
+
+2 Ekim 2026. `/haberler` ilk kartı Ekim 2026 kapağı. Detayda kapak, sayfa 56-57 ve sayfa 58-59 yüklendi. Kaynak adresi olmadığı için “Kaynak haberi aç” yok. 713 px genişlikte yatay taşma yok.
+
 ## Ölçülmeyen
 
 Gerçek telefon, işletim sisteminin metin büyütme ayarı (yalnızca kök `font-size` denendi), Lighthouse, klavye odağının pencere odaklı bir tarayıcıdaki görünümü. Ana sayfadaki geç yüklenen portreler kaydırınca adres aldı; bozuk görsel sayılmadı.

@@ -6,12 +6,45 @@ function image(file: string, width: number, height: number, alt: string): NewsIm
 
 export const news: readonly NewsItem[] = [
   {
+    id: "haber-07",
+    slug: "quality-of-magazine-roportaji",
+    title: "Otelcinin kaybedecek bir dört yıl daha yok",
+    summary:
+      "Quality of Magazine’in Ekim 2026, sayı 208 kapağında Bülent Alıcı yer alıyor. Kapak satırı “Sektöre hizmet için adayım.” Röportaj bu başlıkla yayımlanmış.",
+    status: "published",
+    order: 1,
+    listedOn: "Ekim 2026",
+    sourceName: "Quality of Magazine",
+    sourceUrl: "",
+    contentType: "text_and_image",
+    images: [
+      image(
+        "quality-of-magazine-kapak",
+        768,
+        1024,
+        "Quality of Magazine Ekim 2026, sayı 208 kapağı. Bülent Alıcı ve “Sektöre hizmet için adayım” satırı.",
+      ),
+      image(
+        "quality-of-magazine-sayfa-1",
+        1024,
+        682,
+        "Quality of Magazine röportajı, sayfa 56 ve 57. Başlık: Otelcinin kaybedecek bir dört yıl daha yok.",
+      ),
+      image(
+        "quality-of-magazine-sayfa-2",
+        1024,
+        682,
+        "Quality of Magazine röportajının devamı, sayfa 58 ve 59.",
+      ),
+    ],
+  },
+  {
     id: "haber-01",
     slug: "paravizyon-roportaji",
     title: "Bülent Alıcı Paravizyon Röportajı",
     summary: "",
     status: "published",
-    order: 1,
+    order: 2,
     listedOn: "3 Ağu",
     sourceName: "Paravizyon",
     sourceUrl:
@@ -38,7 +71,7 @@ export const news: readonly NewsItem[] = [
     title: "Bülent Alıcı Tüketici Dergisi Röportajı",
     summary: "",
     status: "published",
-    order: 2,
+    order: 3,
     listedOn: "3 Ağu",
     sourceName: "Tüketici Dergisi",
     sourceUrl:
@@ -66,7 +99,7 @@ export const news: readonly NewsItem[] = [
     summary:
       "Bülent Alıcı, turizm sektörüne yönelik sigorta primi desteğinin basit konaklama belgeli tesisleri de kapsamasını talep ediyor. Haberde İstanbul’daki yaklaşık 1.900 tesisin mevcut düzenlemeden yararlanamadığı belirtiliyor. Alıcı, bu işletmelerin de bakanlığa bağlı çalıştığını, SGK yükümlülüklerini yerine getirdiğini ve istihdam sağladığını vurgulayarak destek kapsamının genişletilmesini savunuyor.",
     status: "published",
-    order: 3,
+    order: 4,
     listedOn: "3 Ağu",
     sourceName: "Turizm Ajansı",
     sourceUrl:
@@ -83,7 +116,7 @@ export const news: readonly NewsItem[] = [
     summary:
       "Haberde Alıcı’nın SGK prim desteğinde tesislerin belge türüne göre ayrılmaması yönündeki çağrısı aktarılıyor. İstanbul’da yaklaşık 1.900 basit konaklama belgeli işletmenin vergi, kayıtlı istihdam ve turizm katkısı bakımından değerlendirilmesi gerektiği belirtiliyor. Desteklerin yasal olarak faaliyet gösteren tüm konaklama tesislerine yayılması isteniyor.",
     status: "published",
-    order: 4,
+    order: 5,
     listedOn: "3 Ağu",
     sourceName: "Hotel Gazetesi",
     sourceUrl:
@@ -100,7 +133,7 @@ export const news: readonly NewsItem[] = [
     summary:
       "Alıcı, İstanbul turizminin başarısının doluluk kadar ziyaretçilerin şehirde bıraktığı ekonomik değerle ölçülmesini savunuyor. Önerileri arasında yerli rezervasyon platformu, doğrudan satışların artırılması ve aracı maliyetlerinin azaltılması bulunuyor. Fuar, kongre, ulaşım ve konaklamanın birlikte planlanması; uluslararası tanıtım, etkinlikler ve şehir deneyimleriyle talebin yıl geneline yayılması öneriliyor. İlçelerin farklı turizm potansiyellerine göre gelişmesi ve dijital gelir yönetimi de ele alınıyor. Metin, 2026 İTO seçimleri bağlamında sektörün ortak hareket etmesi ve kamu ile iletişimin güçlendirilmesi çağrısını içeriyor. Konaklama vergisinin azaltılması veya kaldırılması bir öneri olarak sunuluyor.",
     status: "published",
-    order: 5,
+    order: 6,
     listedOn: "22 Nis",
     sourceName: "Turizm Aktüel",
     sourceUrl:
@@ -117,7 +150,7 @@ export const news: readonly NewsItem[] = [
     summary:
       "Turizm Güncel’den Okan Beltek’e verilen açıklamaları aktaran haberde Alıcı, İstanbul’da konaklama süresini ve ziyaretçi başına harcamayı artıracak bir turizm modeli öneriyor. Kongreler, fuarlar, gastronomi ve kültür etkinlikleri bu yaklaşımın parçaları olarak ele alınıyor. Yerli rezervasyon platformuyla komisyon yükünün azaltılması; yapay zekâ destekli fiyatlama, pazarlama ve operasyon uygulamalarının yaygınlaştırılması hedefleniyor. İTO öncülüğünde eğitim ve danışmanlık, teknoloji kuruluşları ve üniversitelerle iş birliği öneriliyor. Alıcı ayrıca önceki seçim deneyimini değerlendirerek sektör temsilcilerini 2026 seçimlerine katılmaya çağırıyor.",
     status: "published",
-    order: 6,
+    order: 7,
     listedOn: "3 Ağu",
     sourceName: "Turizm Güncel",
     sourceUrl:

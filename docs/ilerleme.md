@@ -72,6 +72,8 @@ Aynı gün arayüzdeki envanter notları kalktı: yıl yok, gövde görünmedi, 
 
 Aynı gün tasarım bütünlüğü: başlık ölçüsü, kart köşesi, 44 px dokunma alanı ve metin bağlantısı sayfalarda ortaklaştı. Sekiz proje sahnesi metinsiz üretildi; başlıklar HTML’de duruyor. Eski rezervasyon görselindeki ışık halkası kalktı. Hesap formülleri ve Sözümüz metni duruyor. Canlı yayın yapılmadı.
 
+2 Ekim 2026: Quality of Magazine, Ekim 2026, sayı 208 haberi eklendi. Kapak listenin görseli. İç sayfalar haberde. Dergi gövdesi yeniden yazılmadı. Haber adresi verilmediği için kaynak bağlantısı yok.
+
 29 Eylül 2026: `cursor-web-paketi` uygulandı. Unvan “16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı”. Proje sayısı sabit “sekiz” yazısından çıktı; başlık sayı vermez. Dört yeni başlık taslaktır: dönem sınırı, gençlerin temsili, kapsayıcı temsil, üye sorun takibi. Yerel önizlemede görünürler, üretim HTML’ine girmezler. Afişler `public/images/kaynak` içindedir; sayfa metni HTML’dedir. Enerji faturası, rezervasyon örneği ve oda geliri hesabı duruyor. Üst menüde imza vardır. Alt bilgide menü yoktur; lacivert bantta beyaz imza, unvan ve kampanya satırları durur. SGK sayfasındaki “Prim desteği Sosyal Güvenlik Kurumu’nun işidir” kapanışı kaldırıldı. Markalarımız Hakkımda sayfasındadır. “27 Ekim'de mavi listede buluşalım.” ana sayfadadır. Aşama 5 başlamadı.
 
 ## Kontroller
