@@ -7,6 +7,9 @@ export const rootMetadata: Metadata = {
     template: `%s — ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  verification: {
+    google: "NB908RVBcDbz_syUyY6fanaiJa_GrGH3JChsxqsmgmQ",
+  },
   ...(siteConfig.origin
     ? { metadataBase: new URL(siteConfig.origin) }
     : { robots: { index: false, follow: false } }),
