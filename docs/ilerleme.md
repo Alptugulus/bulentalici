@@ -133,6 +133,10 @@ Haber yılları, tam röportaj gövdeleri, tekil eski adresler, oda sayıları, 
 
 5 Ekim 2026: Hakkımda ve ana sayfa Temsil paragrafı yenilendi. Üçüncü şahıs duruyor. Henüz canlıya alınmadı.
 
+7 Ekim 2026: şeffaf yönetim videosu web için sıkıştırıldı. Ölçü 1080×1920, süre 61 saniye, ses duruyor. Dosya 132 MB’dan 13 MB’a indi. Orijinal `kaynak-videolar` klasöründe, deponun dışında. Henüz canlıya alınmadı.
+
+7 Ekim 2026: Vizyonumuz açılışında sıra başlık, sonra tek cümle: İstanbul Ticaret Odası, altında adaylık unvanı. Henüz canlıya alınmadı.
+
 7 Ekim 2026: Vizyonumuz adresi `/vizyonumuz`. Eski `/sozumuz` 308 ile buraya gider. Açılış görseli tek ekrandır; “Vizyonumuz”, İstanbul Ticaret Odası ve adaylık unvanı görselin üzerindedir, HTML’dedir. Yüz kadrajda kalır. Henüz canlıya alınmadı.
 
 5 Ekim 2026: menü ve sayfa başlığı “Vizyonumuz”. Adres o gün `/sozumuz` idi. Ana sayfa ve Projelerimiz girişinden “Her başlıkta hedef ve adım yazıyor” cümlesi kalktı. Kalan cümle: “Otellerimizin maliyetlerini azaltmak, gelirlerini artırmak ve İstanbul turizmini birlikte güçlendirmek için çalışacağız.” Henüz canlıya alınmadı.

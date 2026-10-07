@@ -40,16 +40,15 @@ export default function PledgePage() {
         <div className="relative flex h-full flex-col justify-end">
           <Container>
             <div className="max-w-2xl pb-6 sm:pb-8 lg:pb-12">
-              <p className="text-sm font-medium tracking-wide text-white/85 sm:text-base">
-                {siteConfig.organizationContext}
-              </p>
               <h1
                 id="vizyonumuz-baslik"
-                className="mt-2 text-[2.65rem] font-semibold leading-[0.95] tracking-tight text-balance text-white sm:text-6xl lg:text-7xl"
+                className="text-[2.65rem] font-semibold leading-[0.95] tracking-tight text-balance text-white sm:text-6xl lg:text-7xl"
               >
                 Vizyonumuz
               </h1>
               <p className="mt-4 max-w-xl border-l-4 border-white pl-3 text-[0.95rem] leading-snug text-white sm:pl-4 sm:text-xl sm:leading-relaxed">
+                {siteConfig.organizationContext}
+                <br />
                 {siteConfig.candidacyTitle}
               </p>
             </div>
