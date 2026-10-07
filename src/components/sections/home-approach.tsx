@@ -32,6 +32,16 @@ export function HomeApproach() {
             />
           </figure>
         </div>
+        <figure className="mt-8 overflow-hidden rounded-[18px] md:mt-10">
+          <Image
+            src="/images/kaynak/artik-degisim-sart.avif"
+            alt="Artık değişim şart. İstanbul turizminin kaybedecek bir 4 yılı daha yok. Bülent Alıcı, İTO 16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı."
+            width={1024}
+            height={342}
+            sizes="(min-width: 1024px) 64rem, 100vw"
+            className="h-auto w-full"
+          />
+        </figure>
       </Container>
     </section>
   );

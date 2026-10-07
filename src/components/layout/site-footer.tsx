@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { BrandLink } from "@/components/layout/brand-link";
 import { Container } from "@/components/layout/container";
 import { siteConfig } from "@/content/site";
 
@@ -8,9 +8,9 @@ export function SiteFooter() {
     <footer className="site-footer mt-auto bg-navy text-white">
       <Container>
         <div className="flex flex-col gap-8 py-12 sm:py-14 lg:flex-row lg:items-center lg:justify-between">
-          <Link href="/" className="footer-mark" aria-label={siteConfig.name}>
+          <BrandLink className="footer-mark" label={siteConfig.name}>
             <Image src="/images/giris/imza-header.png" alt="" width={410} height={128} />
-          </Link>
+          </BrandLink>
           <div className="max-w-xl">
             <p className="text-sm font-medium tracking-wide text-white/75">{siteConfig.organizationContext}</p>
             <p className="mt-2 text-lg font-semibold leading-snug">{siteConfig.candidacyTitle}</p>

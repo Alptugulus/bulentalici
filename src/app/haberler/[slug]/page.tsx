@@ -35,12 +35,16 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
     notFound();
   }
 
+  const hasBody = Boolean(item.body?.length);
+  const cover = hasBody ? item.images[0] : undefined;
+  const figures = hasBody ? item.images.slice(1) : item.images;
+
   return (
     <Container>
       <article className="max-w-3xl py-16 md:py-20">
         <p>
           <Link href="/haberler" className="project-back underline-offset-4 hover:underline">
-            Haberlere dön
+            Basına dön
           </Link>
         </p>
         <p className="mt-6 text-sm leading-relaxed">
@@ -48,15 +52,27 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
           {item.sourceName ? ` · ${item.sourceName}` : ""}
         </p>
         <h1 className="page-title mt-3">{item.title}</h1>
-        {item.contentType === "text_and_image" && item.summary ? (
+        {cover ? <NewsFigures images={[cover]} /> : null}
+        {hasBody ? (
+          <div className="mt-8 space-y-6 text-lg leading-relaxed">
+            {item.body?.map((block) => (
+              <section key={block.heading ?? block.text}>
+                {block.heading ? (
+                  <h2 className="text-xl font-semibold text-navy">{block.heading}</h2>
+                ) : null}
+                <p className={block.heading ? "mt-3" : undefined}>{block.text}</p>
+              </section>
+            ))}
+          </div>
+        ) : item.contentType === "text_and_image" && item.summary ? (
           <section className="mt-8" aria-labelledby="haber-ozeti">
             <h2 id="haber-ozeti" className="text-xl font-semibold text-navy">
-              Haber özeti
+              Basın özeti
             </h2>
             <p className="mt-4 leading-relaxed">{item.summary}</p>
           </section>
         ) : null}
-        <NewsFigures images={item.images} />
+        <NewsFigures images={figures} />
         {item.sourceUrl ? (
           <p className="mt-8">
             <a
@@ -64,7 +80,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
               className="text-action underline-offset-4 hover:underline"
               rel="noopener noreferrer"
             >
-              Kaynak haberi aç
+              Kaynağı aç
             </a>
           </p>
         ) : null}

@@ -4,9 +4,9 @@
 export const mainNav = [
   { href: "/", label: "Ana Sayfa" },
   { href: "/hakkimda", label: "Hakkımda" },
-  { href: "/sozumuz", label: "Sözümüz" },
+  { href: "/vizyonumuz", label: "Vizyonumuz" },
   { href: "/projelerimiz", label: "Projelerimiz" },
-  { href: "/haberler", label: "Haberler" },
+  { href: "/haberler", label: "Basından" },
   { href: "/galeri", label: "Galeri" },
   { href: "/iletisim", label: "İletişim" },
 ] as const;

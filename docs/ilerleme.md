@@ -64,7 +64,7 @@ Aynı gün kampanya dili: sekiz başlığın amacı ve adımı net cümleyle yaz
 
 Aynı gün muhataplar adlandırıldı. Enerji: Enerji ve Tabii Kaynaklar Bakanlığı, Kültür ve Turizm Bakanlığı ve sivil toplum kuruluşlarıyla toplantı. Vergi: Hazine ve Maliye Bakanlığı; dosya Kültür ve Turizm Bakanlığı ile. SGK: Sosyal Güvenlik Kurumu ve Çalışma ve Sosyal Güvenlik Bakanlığı. Etkinlik: Kültür ve Turizm Bakanlığı. Platform, yapay zekâ, oda geliri ve şeffaflık Oteller Komitesi ile otelcinin işidir.
 
-Aynı gün `/sozumuz` eklendi. Kullanıcının verdiği mektup duruyor. Siyah zemin ve beyaz imza kalktı; sayfa lacivert-beyaz düzendedir ve ana sayfadaki imzayı kullanır. Açılışta portre geniş kadrajdadır; alt bantta yalnızca başlık ve yan yana duran “İstanbul Ticaret Odası” ile adaylık unvanı vardır. “Sevgili dostlar;” mektubun başındadır. Yazı yüze binmez. Adaylık unvanı değişmedi. Mektuptaki “Turizm Komitesi” satırı arayüze yazılmadı. Binde 7,5 ve yüzde 25 kullanıcının sözüdür. Güneş paneli için bakanlık adı verilmediği için uydurulmadı.
+Aynı gün `/sozumuz` eklendi. Kullanıcının verdiği mektup duruyor. Siyah zemin ve beyaz imza kalktı; sayfa lacivert-beyaz düzendedir ve ana sayfadaki imzayı kullanır. Açılışta portre kendi oranında durur; masa ve kupa kırpılmaz. Alt bantta yalnızca başlık ve yan yana duran “İstanbul Ticaret Odası” ile adaylık unvanı vardır. “Sevgili dostlar;” mektubun başındadır. Yazı yüze binmez. Adaylık unvanı değişmedi. Mektuptaki “Turizm Komitesi” satırı arayüze yazılmadı. Binde 7,5 ve yüzde 25 kullanıcının sözüdür. Güneş paneli için bakanlık adı verilmediği için uydurulmadı.
 
 Aynı gün proje girişi: “İstanbul otelciliği için sekiz somut proje.” Haberler, paylaşılan paketteki altı kayıt, sekiz yerel görsel ve kaynak adresiyle yenilendi. Yıl eklenmedi. Tam metin uydurulmadı.
 
@@ -101,6 +101,52 @@ Aynı gün Hakkımda portresi `masa-mavi` oldu. Kaynak 1350×1800. Yatay bordo k
 
 Haber yılları, tam röportaj gövdeleri, tekil eski adresler, oda sayıları, marka siteleri, The City Port’un kendi konum metni, kampanya telefonu ve e-postası ve saha fotoğrafı duruyor. Bunlar uydurulmadı. Aşama 5 kullanıcı “Devam” demeden başlatılmaz.
 
+4 Ekim 2026: şeffaf yönetim sayfasından “Bu düzen göreve geldiğimizde başlar. Bugün satır uydurmayız.” kalktı. Rezervasyon örneğindeki uyarı duruyor.
+
+4 Ekim 2026: logo tıklanınca sayfa başa döner. Sağ altta “Yukarı çık” düğmesi vardır. İlk açılışta imza kısa bir yükleme ekranında durur; aynı sekmede bir daha çıkmaz.
+
+4 Ekim 2026: mobil karşılama yeniden düzenlendi. Yazı görselin üzerinde, alt bantta ve tek sırada duruyor. Yüz üst bantta açık kalıyor. Aynı akşam bulentalici.com.tr adresine yüklendi.
+
+4 Ekim 2026 gece: haber listesi yerelde deneme. `/haberler` sayfa başına on kayıt. Satırlar aşağı indikçe küçülür. Çerçeve görselin kendi oranındadır. Sayfa değişince kısa giriş hareketi var. Ana sayfada son üç haber aynı düzeni kullanır.
+
+5 Ekim 2026: bu haber düzeni bulentalici.com.tr adresine yüklendi. Sayfa başına on kayıt. Yedi haber tek sayfada duruyor.
+
+5 Ekim 2026: yeni haberler tarihe göre eklendi. 11 Eylül Turizm Güncel “Gümbür gümbür geliyoruz”, 9 Eylül Hotel Gazetesi sayı 46 sayfa 10–11, 6 Ağustos Turizm Güncel haberi kapaksızdı; aynı gün haberin üç fotoğrafı ve metni eklendi. Sayfada özet başlığı yok, haberin kendisi okunuyor. 10 Temmuz adaylık duyurusu. Şubat 2026 dayanıklılık kaydı duruyor; verilen adres zaten ona bağlı. 3 Ağustos Turizm Ajansı ve Hotel Gazetesi prim desteği kayıtlarının kaynağı gerçek habere bağlandı; prim görseli sitede zaten vardı. Aynı sayfaların birleşik kopyaları ikinci kez konmadı. “Artık değişim şart” kartı habere konmadı. Ana sayfada “Dört yılın sonunda otelciler ne kazandı?” bölümünün altında, tam genişlikte duruyor. Sağdaki dik afiş yerinde kaldı. Henüz canlıya alınmadı.
+
+5 Ekim 2026: Hakkımda metni üçüncü şahısta. Ana sayfa karşılama adı EB Garamond italik. Altında İstanbul Ticaret Odası ve 16. Oteller Komitesi unvanı birlikte duruyor. Ticaret paragrafı yolculuk cümlesiyle açılıyor. Henüz canlıya alınmadı.
+
+5 Ekim 2026: Google site doğrulama etiketi sayfa başına eklendi. Aynı gün yalnızca ana sayfa HTML’i bulentalici.com.tr adresine yüklendi. Diğer yerel değişiklikler canlıya alınmadı.
+
+5 Ekim 2026: Bakırköy notundaki sergileme, toplam yapı, kongre ve hedef kutuları kalktı.
+
+5 Ekim 2026: Bakırköy paragrafının kaynağı 12 Ekim 2022 Yeni Birlik haberi. Bağlantı “Habere git”.
+
+5 Ekim 2026: Bakırköy notu ilk bakışta okunacak biçimde ayrıldı. “4 yıl önce / Vaatlerimiz arasındaydı”, ok, “Şimdi / Hayata geçtiğini duyduk”. Ardından mutluluk cümlesi ve dört kısa bilgi.
+
+5 Ekim 2026: Bakırköy notunda “mutluluğunu yaşıyoruz.” lacivert bantta, beyaz ve büyük puntoyla duruyor.
+
+5 Ekim 2026: Vizyonumuz sayfasında Bakırköy paragrafının altına 1 Ekim 2026 İstanbul Ticaret Gazetesi notu eklendi. 2022 açıklamasının 2026 İTO Başkanı açıklamasıyla birlikte yürüyeceği, kullanıcının cümlesidir. 40 bin, 110 bin, 11 bin 500 ve 2028–2029 hedefi gazetedeki açıklamadır. Henüz canlıya alınmadı.
+
+5 Ekim 2026: ana sayfa karşılama görseli mavi ceketli masa karesi oldu. Dosya `public/images/giris/giris-mavi-masa.jpg`. Yüz sağda, yazı solda. Henüz canlıya alınmadı.
+
+5 Ekim 2026: 6. projede “koyacağız” yerine “belirleyeceğiz” yazıldı. 7. proje en fazla 3 dönem ile sınırlandırılacak. Menü ve sayfa başlığı “Basından”. Adres `/haberler` duruyor. Henüz canlıya alınmadı.
+
+5 Ekim 2026: Hakkımda ve ana sayfa Temsil paragrafı yenilendi. Üçüncü şahıs duruyor. Henüz canlıya alınmadı.
+
+7 Ekim 2026: Vizyonumuz adresi `/vizyonumuz`. Eski `/sozumuz` 308 ile buraya gider. Açılış görseli tek ekrandır; “Vizyonumuz”, İstanbul Ticaret Odası ve adaylık unvanı görselin üzerindedir, HTML’dedir. Yüz kadrajda kalır. Henüz canlıya alınmadı.
+
+5 Ekim 2026: menü ve sayfa başlığı “Vizyonumuz”. Adres o gün `/sozumuz` idi. Ana sayfa ve Projelerimiz girişinden “Her başlıkta hedef ve adım yazıyor” cümlesi kalktı. Kalan cümle: “Otellerimizin maliyetlerini azaltmak, gelirlerini artırmak ve İstanbul turizmini birlikte güçlendirmek için çalışacağız.” Henüz canlıya alınmadı.
+
+5 Ekim 2026: menüde açık olan sayfa mavi ve altı çizili duruyor. Çizgi kaydırınca kalkmıyor. Haber detayında da Haberler seçili kalıyor. Henüz canlıya alınmadı.
+
+5 Ekim 2026: Hotel Gazetesi Şubat 2026, sayı 45 röportajı eklendi. Başlık “2026 Dayanıklılık Yılı Olacak.” Kapak, sayfa 6 ve sayfa 7 haberde. Kaynak, 23 Şubat 2026 tarihli Hotel Gazetesi yazısıdır. Verilen Şubat 2025 sayısı bu sayfalara ait değildir. Röportaj gövdesi yeniden yazılmadı. Sıra Ekim 2026 kaydının ardındadır. Aynı gece bulentalici.com.tr adresine yüklendi.
+
+4 Ekim 2026: ana sayfa mobil karşılama yazısı fotoğrafın altına alındı. Özgeçmiş başlığı “Özgeçmiş” oldu. Açılıştan “Ben Bülent Alıcı.” kalktı. Eğitime “Ayrıca iyi derecede İngilizce bilirim.” eklendi. Quality of Magazine özetinden “Röportaj bu başlıkla yayımlanmış.” kalktı. Rezervasyon örneğindeki oda adları A tipi oda ve B tipi oda oldu; seçim satırı gece tutarı, konaklama tutarı ve Seç düğmesiyle duruyor. Örnek gecelik tutarlar değişmedi. Aynı gün bu sayfalar bulentalici.com.tr adresine yüklendi.
+
+3 Ekim 2026: şeffaf yönetim sayfasına paylaşılan dik video eklendi. Dosya `public/videos/seffaf-yonetim.mp4`. Süre yaklaşık bir dakika, ölçü 1080×1920. Altyazı üretilmedi. Aynı gece Natro’ya yüklendi; `https://www.bulentalici.com.tr/projelerimiz/seffaf-komite-yonetimi/` videoyu sunuyor.
+
+3 Ekim 2026: sayfalar Natro’daki **bulentalici.com.tr** klasörüne yüklendi. Aynı gece Wix DNS’te kök **A** kaydı `94.73.150.231` oldu, **www** CNAME’i `bulentalici.com.tr` oldu. **MX** `mx.yandex.net` ve `mail` CNAME’i duruyor. Google ve Cloudflare yeni adresi görüyor. Bazı ağlarda eski Wix adresi yaklaşık bir saat önbellekte kalıyor. Natro panelindeki ücretli statik IP alınmadı. Let’s Encrypt sertifikası 3 Ekim 2026’da üretildi; cPanel’e kurulumu bekliyor. Kurulmadan HTTPS `NET::ERR_CERT_COMMON_NAME_INVALID` verir.
+
 ## Sıradaki
 
-Aşama 5 — içeriği kimin güncelleyeceği ve WordPress’in durumu.
+Herkese açık adresi çevirmek, kullanıcı isteyince. Aşama 5 — içeriği kimin güncelleyeceği ve WordPress’in durumu, “Devam” ile başlar.

@@ -16,8 +16,27 @@ export const pledge = {
     "Her bölgenin ayrı sorunu var. Bölgelerin sorunlarını da biliyoruz.",
   ],
   bakirkoyLabel: "Bakırköy bölgesinde;",
+  bakirkoySource: {
+    date: "12 Ekim 2022",
+    sourceName: "Yeni Birlik",
+    sourceUrl:
+      "https://www.gazetebirlik.com/yerel-haberler/bulent-alici-govdemizi-koyarak-geliyoruz-86788/86788",
+  },
   bakirkoy:
     "Havalimanı taşındıktan sonra bölgenin bu boşluğu dolduracak bir yatırıma ihtiyacı var. İstanbul Ticaret Odası, Bakırköy Belediyesi, İstanbul Büyükşehir Belediyesi ve hükümetle ortak dilde, vakit kaybetmeden karar alacağız. Fuar alanının arka kısmını da içine alarak kongre vadisi ilan edeceğiz. Bakırköy’e yapılması gereken en büyük turizm desteği budur. Belediye başkanlarımızla birlikte yürüyeceğiz. Mevcut alan Bakırköy Belediyesi ve İstanbul Ticaret Odası’na aittir.",
+  bakirkoyNote: {
+    date: "1 Ekim 2026",
+    sourceName: "İstanbul Ticaret Gazetesi",
+    sourceUrl:
+      "https://istanbulticaretgazetesi.com/istanbul-fuar-merkezine-dev-yatirim-ito-baskani-sekib-avdagic-tarih-verdi",
+    beforeWhen: "4 yıl önce",
+    beforeWhat: "Vaatlerimiz arasındaydı",
+    nowWhen: "Şimdi",
+    nowWhat: "Hayata geçirildiğini öğrendik",
+    feeling: "Şahsım ve sektörümüz adına mutluluk vericidir.",
+    detail:
+      "İTO Başkanı Şekib Avdagiç, İstanbul Fuar Merkezi’nin önündeki otopark alanında yeni bir hol inşa ettiklerini açıkladı.",
+  },
   supportLabel: "Siz değerli dostlarımızın desteğiyle;",
   afterSupport: [
     "Seçildiğimizde, hükümetimizin ve Kültür ve Turizm Bakanımızın kapısından, üyelerimiz için gerekeni istemeden ayrılmayacağız.",

@@ -25,6 +25,13 @@ export type ProjectPoster = {
   alt: string;
 };
 
+export type ProjectVideo = {
+  src: string;
+  label: string;
+  width: number;
+  height: number;
+};
+
 export type Project = {
   id: string;
   slug: string;
@@ -36,6 +43,7 @@ export type Project = {
   category: ProjectCategory;
   paragraphs: readonly string[];
   poster?: ProjectPoster;
+  video?: ProjectVideo;
   closing?: string;
   priorStatement?: string;
 };
@@ -61,6 +69,11 @@ export type NewsImage = {
   alt: string;
 };
 
+export type NewsBlock = {
+  heading?: string;
+  text: string;
+};
+
 export type NewsItem = {
   id: string;
   slug: string;
@@ -73,6 +86,7 @@ export type NewsItem = {
   sourceUrl: string;
   contentType: "image_only" | "text_and_image";
   images: readonly NewsImage[];
+  body?: readonly NewsBlock[];
 };
 
 export type Brand = {

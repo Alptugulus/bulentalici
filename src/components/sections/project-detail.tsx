@@ -41,13 +41,38 @@ function ProjectStory({ project }: { project: Project }) {
   }
 }
 
+function ProjectVideo({ project }: { project: Project }) {
+  if (!project.video) {
+    return null;
+  }
+
+  const portrait = project.video.height > project.video.width;
+
+  return (
+    <figure className={portrait ? "mx-auto w-full max-w-[420px]" : undefined}>
+      <video
+        controls
+        playsInline
+        preload="metadata"
+        width={project.video.width}
+        height={project.video.height}
+        aria-label={project.video.label}
+        className="h-auto w-full bg-navy"
+      >
+        <source src={project.video.src} type="video/mp4" />
+      </video>
+    </figure>
+  );
+}
+
 function ProjectNarrative({ project }: { project: Project }) {
-  if (project.paragraphs.length === 0 && !project.poster) {
+  if (project.paragraphs.length === 0 && !project.poster && !project.video) {
     return null;
   }
 
   return (
     <div className="mt-8 space-y-6">
+      <ProjectVideo project={project} />
       {project.paragraphs.length > 0 ? (
         <section aria-labelledby={`${project.id}-oneri`}>
           <h2 id={`${project.id}-oneri`} className="text-xl font-semibold text-navy">

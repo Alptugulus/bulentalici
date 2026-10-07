@@ -148,7 +148,6 @@ export function TransparencyStory() {
           <p className="mt-3 leading-relaxed">Sonuç, çalışma bitince yazılır. Bitmeyen işi bitmiş göstermeyiz.</p>
         </article>
       </div>
-      <p className="mt-5 leading-relaxed">Bu düzen göreve geldiğimizde başlar. Bugün satır uydurmayız.</p>
     </section>
   );
 }

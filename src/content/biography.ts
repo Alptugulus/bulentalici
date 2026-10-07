@@ -4,35 +4,36 @@ import type { Biography } from "@/types/content";
 export const biographyDraft: Biography = {
   id: "tanitim",
   status: "published",
-  lead: "Ben Bülent Alıcı. 1975 yılında İstanbul’da doğdum, aslen Konyalıyım. Evli ve üç çocuk babasıyım.",
+  lead: "1975 yılında İstanbul’da doğdu, aslen Konyalıdır. Evli ve üç çocuk babasıdır.",
   sections: [
     {
       id: "egitim",
       label: "Eğitim",
       paragraphs: [
-        "Vefa Anadolu Lisesi’nin ardından Londra’da, London City University’de başladığım işletme eğitimimi, Girne Amerikan Üniversitesi’nde tamamladım.",
+        "Vefa Anadolu Lisesi’nin ardından Londra’da, London City University’de başladığı işletme eğitimini Girne Amerikan Üniversitesi’nde tamamladı.",
+        "Ayrıca iyi derecede İngilizce bilir.",
       ],
     },
     {
       id: "ticaret",
       label: "Ticaret",
       paragraphs: [
-        "Babam İsmail Alıcı’nın 1969 yılında İstanbul’a gelmesiyle ticaret yolculuğumuz başladı. Üniversite eğitimimin ardından aile şirketlerimizde sorumluluk üstlendim. 2000 yılından bu yana şirketlerimizin yönetim kurulu başkanlığını yürütüyorum.",
-        "Bugün turizm, gayrimenkul geliştirme, lojistik ve inşaat sektörlerinde faaliyetlerimizi sürdürüyoruz.",
+        "Ticaret yolculuğu, babası İsmail Alıcı’nın 1969 yılında İstanbul’a gelmesiyle başladı. Üniversite eğitiminin ardından aile şirketlerinde sorumluluk üstlendi. 2000 yılından bu yana şirketlerin yönetim kurulu başkanlığını yürütüyor.",
+        "Bugün turizm, gayrimenkul geliştirme, lojistik ve inşaat sektörlerinde faaliyetlerini sürdürüyor.",
       ],
     },
     {
       id: "otelcilik",
       label: "Otelcilik",
       paragraphs: [
-        "Eser Oteller Yönetim Kurulu Başkanı olarak, otelciliğin sorumluluklarını ve sektörümüzün karşılaştığı zorlukları bölge bölge yakından biliyorum. Bu tecrübemi, meslektaşlarımızın ortak sorunlarına çözüm üretmek için değerlendirmek istiyorum.",
+        "Eser Oteller Yönetim Kurulu Başkanı olarak otelciliğin sorumluluklarını ve sektörün karşılaştığı zorlukları bölge bölge yakından bilir. Bu tecrübesini, meslektaşlarının ortak sorunlarına çözüm üretmek için değerlendirmek istiyor.",
       ],
     },
     {
       id: "temsil",
       label: "Temsil",
       paragraphs: [
-        "İTO 16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı olarak; ulaşılabilir, şeffaf ve projeleriyle sonuç üreten bir temsil anlayışı için yola çıktım. Meslektaşlarımızın sesini birlikte güçlendirmek ve İstanbul turizminin geleceğini ortak akılla şekillendirmek için desteğinizi bekliyorum.",
+        "İTO 16. Oteller Komitesi Başkan ve Meclis Üyesi Adayı olarak meslektaşlarını dinleyen, kolayca ulaşılabilen ve birlikte çözüm üreten bir temsil anlayışıyla yola çıktı. İstanbul turizminin geleceğini birlikte şekillendirmek için meslektaşlarının desteğini bekliyor.",
       ],
     },
   ],

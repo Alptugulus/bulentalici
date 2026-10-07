@@ -2,10 +2,13 @@ import type { NextConfig } from "next";
 import path from "node:path";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  trailingSlash: true,
   turbopack: {
     root: path.join(import.meta.dirname),
   },
   images: {
+    unoptimized: true,
     qualities: [75, 90],
   },
   async redirects() {
@@ -23,6 +26,11 @@ const nextConfig: NextConfig = {
       {
         source: "/haberler/turizm-aktuel-roportaji",
         destination: "/haberler/turizm-aktuel",
+        permanent: true,
+      },
+      {
+        source: "/sozumuz",
+        destination: "/vizyonumuz",
         permanent: true,
       },
     ];

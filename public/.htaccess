@@ -1,0 +1,22 @@
+Options -Indexes
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Eski site adresleri. Kaynak: haber kayıtlarındaki eski bağlantılar ve docs/kararlar.md.
+RewriteRule ^haberler/ito-oteller-komitesinde-degisim/?$ /haberler/ito-oteller-komitesi/ [R=308,L]
+RewriteRule ^haberler/hotel-gazetesi-prim-destegi/?$ /haberler/hotel-gazetesi/ [R=308,L]
+RewriteRule ^haberler/turizm-aktuel-roportaji/?$ /haberler/turizm-aktuel/ [R=308,L]
+RewriteRule ^politika/?$ /projelerimiz/ [R=308,L]
+RewriteRule ^i-letisim/?$ /iletisim/ [R=308,L]
+RewriteRule ^sozumuz/?$ /vizyonumuz/ [R=308,L]
+RewriteRule ^post/bülent-alıcı-paravizyon-röportajı/?$ /haberler/paravizyon-roportaji/ [R=308,L]
+RewriteRule ^post/bülent-alıcıtüketici-dergisi-röportajı/?$ /haberler/tuketici-dergisi-roportaji/ [R=308,L]
+RewriteRule ^post/bülent-alıcı-turizm-ajansina-konuştu/?$ /haberler/turizm-ajansi/ [R=308,L]
+RewriteRule ^post/bülent-alıcı-hotel-gazetesine-konuştu-1/?$ /haberler/hotel-gazetesi/ [R=308,L]
+RewriteRule ^post/bülent-alıcı-turizm-aktüel-röpörtajı/?$ /haberler/turizm-aktuel/ [R=308,L]
+RewriteRule ^post/i-to-oteller-komitesi-nde-değişim-rüzgarı/?$ /haberler/ito-oteller-komitesi/ [R=308,L]
+</IfModule>
+
+ErrorDocument 404 /404.html

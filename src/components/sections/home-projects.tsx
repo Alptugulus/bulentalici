@@ -1,7 +1,7 @@
 import { Container } from "@/components/layout/container";
 import { ProjectCollection } from "@/components/sections/project-collection";
 import { EmptyState } from "@/components/ui/empty-state";
-import { projectsHeading, projectsIntro, projectsLead } from "@/content/projects";
+import { projectsHeading, projectsLead } from "@/content/projects";
 import { getVisibleProjects } from "@/lib/content";
 
 export function HomeProjects() {
@@ -16,7 +16,6 @@ export function HomeProjects() {
           </h2>
           <p className="projects-kicker mt-4">{projectsHeading}</p>
           <p className="mt-4 leading-relaxed">{projectsLead}</p>
-          <p className="mt-4 leading-relaxed">{projectsIntro(items)}</p>
         </div></div>
         {items.length > 0 ? (
           <ProjectCollection cardTitle="h4" />

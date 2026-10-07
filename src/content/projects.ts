@@ -5,33 +5,6 @@ export const projectsLead =
 
 export const projectsHeading = "İstanbul otelciliği için somut projeler.";
 
-const projectTopics: Record<string, string> = {
-  sgk: "SGK desteği",
-  enerji: "dağıtım ve YEKDEM bedelleri",
-  vergi: "vergi indirimi",
-  rezervasyon: "rezervasyon platformu",
-  dijital: "yapay zekâ",
-  "oda-geliri": "oda geliri",
-  donem: "dönem sınırı",
-  genc: "gençlerin temsili",
-  kapsayici: "kapsayıcı temsil",
-  seffaflik: "şeffaf yönetim",
-  sorun: "üye sorun takibi",
-  etkinlik: "etkinlik takvimi",
-};
-
-export function projectsIntro(items: readonly { id: string }[]) {
-  const topics = items.map((item) => projectTopics[item.id]).filter((topic) => topic !== undefined);
-  if (topics.length === 0) {
-    return "Her başlıkta hedef ve adım yazıyor.";
-  }
-  if (topics.length === 1) {
-    return `Her başlıkta hedef ve adım yazıyor: ${topics[0]}.`;
-  }
-  const last = topics[topics.length - 1];
-  return `Her başlıkta hedef ve adım yazıyor: ${topics.slice(0, -1).join(", ")} ve ${last}.`;
-}
-
 export const projectGroups: readonly { id: ProjectCategory; title: string }[] = [
   { id: "isletme-maliyetleri", title: "İşletme maliyetleri ve destekler" },
   { id: "rezervasyon-dijitallesme", title: "Rezervasyon ve dijitalleşme" },
@@ -152,7 +125,7 @@ export const projects: readonly Project[] = [
     id: "oda-geliri",
     slug: "oda-geliri",
     title: "Otelcinin odasını hak ettiği fiyata satması",
-    summary: "Otellerimiz odayı doluluğa göre kırmayacak. Fiyatı oda gelirine göre koyacağız.",
+    summary: "Otellerimiz odayı doluluğa göre kırmayacak. Fiyatı oda gelirine göre belirleyeceğiz.",
     status: "published",
     order: 6,
     example: "room-revenue",
@@ -163,14 +136,14 @@ export const projects: readonly Project[] = [
   {
     id: "donem",
     slug: "komite-ve-temsil-gorevlerinde-donem-siniri",
-    title: "Komite ve Temsil Görevlerinde Dönem Sınırı",
-    summary: "Görev süresinde 2 dönem esas, en fazla 3 dönem sınır olsun.",
+    title: "Komite ve Temsil Görevlerinde En Fazla 3 Dönem",
+    summary: "Komite ve temsil görevleri en fazla 3 dönem ile sınırlandırılacak.",
     status: "draft",
     order: 7,
     example: "term-limit",
     category: "temsil-yonetim",
     paragraphs: [
-      "Görev süresinde 2 dönemin esas, en fazla 3 dönemin sınır olması öneriliyor.",
+      "Komite ve temsil görevleri en fazla 3 dönem ile sınırlandırılacak.",
       "Öneri, yeni fikirlere ve daha güçlü katılıma alan açmayı, sorumluluğun paylaşılmasını ve temsil görevlerinde yenilenmeyi amaçlıyor.",
     ],
     poster: poster(
@@ -228,6 +201,12 @@ export const projects: readonly Project[] = [
       "009-proje-9-seffaf-yonetim",
       "Şeffaf ve hesap verebilir yönetim başlıklı paylaşım afişi.",
     ),
+    video: {
+      src: "/videos/seffaf-yonetim.mp4",
+      label: "Şeffaf ve hesap verebilir yönetim",
+      width: 1080,
+      height: 1920,
+    },
     closing: "Bu hesap Oteller Komitesi’nin işidir. Üyelerimize açık yazılır.",
   },
   {

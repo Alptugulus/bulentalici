@@ -12,7 +12,7 @@
 | İçerik | Dosya tabanlı başlangıç. `draft` / `published`. Üretimde taslak sızmaz |
 | Tasarım başlangıcı | Lacivert `#10253F`, beyaz `#FFFFFF`, yüzey `#F3F6FA`, vurgu `#2563EB`, metin `#172B4D`. Renkler CSS değişkenlerinde. Yazı: Inter uygunsa, değilse sistem sans-serif. Gövde en az 16 px |
 | Karşılama | İlk başlık isim ve doğrulanmış unvandır. Eski slogan onaysızdır. “Değişim şart.” ve “Mavi listede buluşalım.” kullanıcı 28 Eylül 2026’da tasarım vurgusu olarak verdi; unvanın yerini almaz. Giriş `4.JPG` üzerindedir; imza ve altındaki şirket görevi de görselin üzerindedir. Bu görev adaylık unvanı değildir |
-| Menü | Ana Sayfa, Hakkımda, Sözümüz, Projelerimiz, Haberler, Galeri, İletişim. Markalarımız Hakkımda sayfasındadır. Alt bilgide menü yoktur |
+| Menü | Ana Sayfa, Hakkımda, Vizyonumuz, Projelerimiz, Basından, Galeri, İletişim. Vizyonumuz adresi `/vizyonumuz`; eski `/sozumuz` 308 ile buraya gider. Basından adresi `/haberler` durur. Markalarımız Hakkımda sayfasındadır. Alt bilgide menü yoktur |
 | Görseller | Fotoğraf yokken işaretli yerel alan. Yapay portre yok |
 | Form ve bülten | Hizmet bağlanmadan yok. Sahte başarı yok |
 | İzleme | Analitik, reklam veya çerez katmanı ihtiyaç doğrulanmadan eklenmez |
@@ -58,7 +58,7 @@ Aynı sorular yeniden sorulmaz. İlgili aşamada netleşir.
 | WordPress adresinin varlığı | Aşama 5 | Kurulum doğrulanmadı; API varmış gibi kod yazılmaz |
 | Kampanya telefonu, e-posta, sosyal hesaplar | İletişim | Otel iletişimi kullanılmaz |
 | Form ve bülten | Entegrasyon | Sahte gönderim yok |
-| Barındırma ve alan adı | Yayın hazırlığı | Yerel geliştirme |
+| Barındırma ve alan adı | 3 Ekim 2026: Natro’da statik dosya. DNS Wix’te kalır, e-posta Yandex’te kalır. Adres kullanıcı isteyince çevrilir | Natro klasörü dolu; herkese açık adres henüz Wix |
 | Seçim tarihi | İçeriğe eklenirse | Sayım sayacı eklenmez |
 | Alt bilgi yayıncısı | Yayın öncesi | Eski Eser Group satırı kopyalanmaz |
 | Gizlilik metni | Veri toplanacaksa | Banner veya analitik eklenmez |

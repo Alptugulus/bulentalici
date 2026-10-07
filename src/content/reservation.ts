@@ -4,8 +4,8 @@ export const demoHotels = [
     name: "Örnek Otel A",
     district: "Beyoğlu",
     rooms: [
-      { id: "standart", name: "Standart oda", nightly: 3000 },
-      { id: "genis", name: "Geniş oda", nightly: 3900 },
+      { id: "a-tipi", name: "A tipi oda", nightly: 3000 },
+      { id: "b-tipi", name: "B tipi oda", nightly: 3900 },
     ],
   },
   {
@@ -13,8 +13,8 @@ export const demoHotels = [
     name: "Örnek Otel B",
     district: "Fatih",
     rooms: [
-      { id: "standart", name: "Standart oda", nightly: 2500 },
-      { id: "genis", name: "Geniş oda", nightly: 3300 },
+      { id: "a-tipi", name: "A tipi oda", nightly: 2500 },
+      { id: "b-tipi", name: "B tipi oda", nightly: 3300 },
     ],
   },
   {
@@ -22,8 +22,8 @@ export const demoHotels = [
     name: "Örnek Otel C",
     district: "Kadıköy",
     rooms: [
-      { id: "standart", name: "Standart oda", nightly: 2800 },
-      { id: "genis", name: "Geniş oda", nightly: 3600 },
+      { id: "a-tipi", name: "A tipi oda", nightly: 2800 },
+      { id: "b-tipi", name: "B tipi oda", nightly: 3600 },
     ],
   },
 ] as const;
@@ -71,4 +71,18 @@ export function formatDay(index: number) {
   const month = String(date.getUTCMonth() + 1).padStart(2, "0");
   const day = String(date.getUTCDate()).padStart(2, "0");
   return `${date.getUTCFullYear()}-${month}-${day}`;
+}
+
+const stayFormat = new Intl.DateTimeFormat("tr-TR", {
+  day: "numeric",
+  month: "short",
+  timeZone: "UTC",
+});
+
+export function formatStay(value: string) {
+  const index = dayIndex(value);
+  if (index === null) {
+    return value;
+  }
+  return stayFormat.format(new Date(index)).replace(/\.$/, "");
 }
